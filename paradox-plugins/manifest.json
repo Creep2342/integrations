@@ -207,6 +207,39 @@
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-custom-tabs/main/src/logo.png",
     "versions": [
       {
+        "version": "0.2.8.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.8.0/Release-10.10.7.zip",
+        "checksum": "C2E0F21FDC728293526FCAFB9FC06392",
+        "timestamp": "2025-11-03T22:24:54",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.8.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.8.0/Release-10.11.7.zip",
+        "checksum": "CF74E1507C4D1127F62DAA85C1283A38",
+        "timestamp": "2025-11-03T22:24:54",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.8.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.8.0/Release-10.11.8.zip",
+        "checksum": "B984EDB85D289BB74491EA3DE39217A7",
+        "timestamp": "2025-11-03T22:24:54",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.2.7.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.7\r\n- Due to the security warning issued with the release of 10.11.7, all previous 10.11.x versions have been discontinued effective immediately to promote upgrading to the more secure version",
         "targetAbi": "10.10.7.0",
@@ -735,6 +768,39 @@
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-collection-sections/main/src/logo.png",
     "versions": [
       {
+        "version": "2.3.8.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.8.0/Release-10.10.7.zip",
+        "checksum": "40A2B1559781300A27BD1BB5E6CE9ECB",
+        "timestamp": "2025-11-03T22:24:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.8.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.8.0/Release-10.11.7.zip",
+        "checksum": "6A4DA7A1F64CD9398B9578AD53045996",
+        "timestamp": "2025-11-03T22:24:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.8.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.8.0/Release-10.11.8.zip",
+        "checksum": "83BCF13C9B57E05F3E548C2F4EC633F5",
+        "timestamp": "2025-11-03T22:24:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.7.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.7\r\n- Due to the security warning issued with the release of 10.11.7, all previous 10.11.x versions have been discontinued effective immediately to promote upgrading to the more secure version",
         "targetAbi": "10.10.7.0",
@@ -1240,6 +1306,105 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-file-transformation/main/src/logo.png",
     "versions": [
+      {
+        "version": "2.5.9.0",
+        "changelog": "🪲 Bug Fixes\r\n \r\n - Fixed issue #55 introduced in #52 where transformation wouldn’t register properly due to DI hishap (PR #56, @4eh5xitv6787h645ebv)",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.9.0/Release-10.10.7.zip",
+        "checksum": "9CC8A26FAB3E5DD80901F3DF56106C37",
+        "timestamp": "2026-04-15T12:51:25",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.9.0",
+        "changelog": "🪲 Bug Fixes\r\n \r\n - Fixed issue #55 introduced in #52 where transformation wouldn’t register properly due to DI hishap (PR #56, @4eh5xitv6787h645ebv)",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.9.0/Release-10.11.7.zip",
+        "checksum": "A874F5BEAD17E46907D5A2F45705FF25",
+        "timestamp": "2026-04-15T12:51:25",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.9.0",
+        "changelog": "🪲 Bug Fixes\r\n \r\n - Fixed issue #55 introduced in #52 where transformation wouldn’t register properly due to DI hishap (PR #56, @4eh5xitv6787h645ebv)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.9.0/Release-10.11.8.zip",
+        "checksum": "C56B6640093071C67085CF1EA45B9F58",
+        "timestamp": "2026-04-15T12:51:25",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.8.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where plugin wouldn't load properly during dashboard restarts (PR #52, @4eh5xitv6787h645ebv)",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.8.0/Release-10.10.7.zip",
+        "checksum": "8E49F4CFF9DDEEBE1651519CABDE679F",
+        "timestamp": "2026-04-11T23:02:58",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.8.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where plugin wouldn't load properly during dashboard restarts (PR #52, @4eh5xitv6787h645ebv)",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.8.0/Release-10.11.7.zip",
+        "checksum": "211DCBEF911AACB522E98A5204F34E59",
+        "timestamp": "2026-04-11T23:02:58",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.8.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where plugin wouldn't load properly during dashboard restarts (PR #52, @4eh5xitv6787h645ebv)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.8.0/Release-10.11.8.zip",
+        "checksum": "86602208638A46AFAFBF1B351E91F115",
+        "timestamp": "2026-04-11T23:02:58",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.7.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.7.0/Release-10.10.7.zip",
+        "checksum": "FD3414BCACB066B66B46EF449F6C8E6B",
+        "timestamp": "2026-03-15T13:12:07",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.7.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.7.0/Release-10.11.7.zip",
+        "checksum": "4DF7366A0042838BD10A486F0B42EF70",
+        "timestamp": "2026-03-15T13:12:07",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.7.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.7.0/Release-10.11.8.zip",
+        "checksum": "A64F8F73471E74C1E7306BF2B9C97DD2",
+        "timestamp": "2026-03-15T13:12:07",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.5.6.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.7\r\n- Due to the security warning issued with the release of 10.11.7, all previous 10.11.x versions have been discontinued effective immediately to promote upgrading to the more secure version",
@@ -2088,6 +2253,39 @@
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-media-bar/main/src/logo.png",
     "versions": [
       {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.10.0/Release-10.10.7.zip",
+        "checksum": "CB465496D4301473F6BDF5B619AA9CA2",
+        "timestamp": "2026-02-13T14:31:50",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.10.0/Release-10.11.7.zip",
+        "checksum": "6F187B88370350032C0F60C647AF4B0C",
+        "timestamp": "2026-02-13T14:31:50",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.10.0/Release-10.11.8.zip",
+        "checksum": "0601B519CEAE9AE3A7DEBDB3F8E3976F",
+        "timestamp": "2026-02-13T14:31:50",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.9.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.7\r\n- Due to the security warning issued with the release of 10.11.7, all previous 10.11.x versions have been discontinued effective immediately to promote upgrading to the more secure version",
         "targetAbi": "10.10.7.0",
@@ -2858,6 +3056,39 @@
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-pages/main/src/logo.png",
     "versions": [
       {
+        "version": "2.4.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.9.0/Release-10.10.7.zip",
+        "checksum": "0249D67E7EC06A23EE4B8340489F44CC",
+        "timestamp": "2026-01-19T21:32:45",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.9.0/Release-10.11.7.zip",
+        "checksum": "C6442AB90DDAF221F545ADE1E13EE437",
+        "timestamp": "2026-01-19T21:32:45",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.9.0/Release-10.11.8.zip",
+        "checksum": "8934B4ACA1CC8FD84800218112B2667B",
+        "timestamp": "2026-01-19T21:32:45",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.8.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.7\r\n- Due to the security warning issued with the release of 10.11.7, all previous 10.11.x versions have been discontinued effective immediately to promote upgrading to the more secure version",
         "targetAbi": "10.10.7.0",
@@ -3462,6 +3693,39 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-home-sections/main/src/logo.png",
     "versions": [
+      {
+        "version": "2.5.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.9.0/Release-10.10.7.zip",
+        "checksum": "7755E3C0D9133B7B38D6209E25910180",
+        "timestamp": "2026-03-29T15:27:45",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.9.0/Release-10.11.7.zip",
+        "checksum": "DEE15BBCBFFF39050D7F7DF6A7008CA2",
+        "timestamp": "2026-03-29T15:27:45",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.9.0/Release-10.11.8.zip",
+        "checksum": "4F5E15F08F94FBA570D4C60888A3EBB1",
+        "timestamp": "2026-03-29T15:27:45",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.5.8.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.7\r\n- Due to the security warning issued with the release of 10.11.7, all previous 10.11.x versions have been discontinued effective immediately to promote upgrading to the more secure version",
