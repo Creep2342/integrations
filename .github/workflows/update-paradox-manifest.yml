@@ -1,4 +1,3 @@
-```yaml
 name: Update Paradox Plugin Manifest
 
 on:
@@ -73,4 +72,3 @@ jobs:
           git add paradox-plugins/manifest.json
           git commit -m "Update Paradox plugin manifest"
           git push
-```
