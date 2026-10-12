@@ -207,6 +207,193 @@
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-custom-tabs/main/src/logo.png",
     "versions": [
       {
+        "version": "0.3.1.0",
+        "changelog": "Patch to make work on 12.1.0 as released on 12.0.1 (which doesn't exist) by accident. If you're not on 12.1.0 this is exactly the same version as 0.3.0.0",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.3.1.0/Release-10.11.11.zip",
+        "checksum": "324998D67650FED9957D2B618886D4ED",
+        "timestamp": "2026-09-21T10:32:00",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.3.1.0",
+        "changelog": "Patch to make work on 12.1.0 as released on 12.0.1 (which doesn't exist) by accident. If you're not on 12.1.0 this is exactly the same version as 0.3.0.0",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.3.1.0/Release-12.0.0.zip",
+        "checksum": "F06B008F02FAC997B19A5BAA175BDCBE",
+        "timestamp": "2026-09-21T10:32:00",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.3.1.0",
+        "changelog": "Patch to make work on 12.1.0 as released on 12.0.1 (which doesn't exist) by accident. If you're not on 12.1.0 this is exactly the same version as 0.3.0.0",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.3.1.0/Release-12.1.0.zip",
+        "checksum": "3F4464FB4EB11F1D9F48CF6D06460BC2",
+        "timestamp": "2026-09-21T10:32:00",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "## ✨ New Features\r\n\r\n* Added support for Jellyfin 12.\r\n* Added support for custom tabs in Jellyfin 12's Modern layout, including both the desktop header and mobile navigation drawer (PR #62, @999Fritsch).\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed custom tab HTML content being corrupted when it contained multi-line JavaScript, template literals, comments, or other newline-sensitive content (PR #59, @pcfascist).\r\n* Custom tab content is now rendered at runtime, allowing embedded `<script>` elements to execute correctly.\r\n* Improved resilience when clients have a cached Jellyfin web chunk by creating missing custom tab content containers at runtime.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* Added a Jellyfin 12 build target using .NET 10.\r\n* Dropped support for Jellyfin 10.11 releases prior to 10.11.11. Jellyfin 10.11.11 remains supported.\r\n\r\n### Contributors\r\n\r\n* 999Fritsch\r\n* pcfascist\r\n* austinnorgaard",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.3.0.0/Release-10.11.11.zip",
+        "checksum": "0BA1EFD42311DFCC6116DEE9407C2BAA",
+        "timestamp": "2026-09-21T10:32:00",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "## ✨ New Features\r\n\r\n* Added support for Jellyfin 12.\r\n* Added support for custom tabs in Jellyfin 12's Modern layout, including both the desktop header and mobile navigation drawer (PR #62, @999Fritsch).\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed custom tab HTML content being corrupted when it contained multi-line JavaScript, template literals, comments, or other newline-sensitive content (PR #59, @pcfascist).\r\n* Custom tab content is now rendered at runtime, allowing embedded `<script>` elements to execute correctly.\r\n* Improved resilience when clients have a cached Jellyfin web chunk by creating missing custom tab content containers at runtime.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* Added a Jellyfin 12 build target using .NET 10.\r\n* Dropped support for Jellyfin 10.11 releases prior to 10.11.11. Jellyfin 10.11.11 remains supported.\r\n\r\n### Contributors\r\n\r\n* 999Fritsch\r\n* pcfascist\r\n* austinnorgaard",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.3.0.0/Release-12.0.0.zip",
+        "checksum": "DBD5751E0DD155001822D8C577D50A8E",
+        "timestamp": "2026-09-21T10:32:00",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "## ✨ New Features\r\n\r\n* Added support for Jellyfin 12.\r\n* Added support for custom tabs in Jellyfin 12's Modern layout, including both the desktop header and mobile navigation drawer (PR #62, @999Fritsch).\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed custom tab HTML content being corrupted when it contained multi-line JavaScript, template literals, comments, or other newline-sensitive content (PR #59, @pcfascist).\r\n* Custom tab content is now rendered at runtime, allowing embedded `<script>` elements to execute correctly.\r\n* Improved resilience when clients have a cached Jellyfin web chunk by creating missing custom tab content containers at runtime.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* Added a Jellyfin 12 build target using .NET 10.\r\n* Dropped support for Jellyfin 10.11 releases prior to 10.11.11. Jellyfin 10.11.11 remains supported.\r\n\r\n### Contributors\r\n\r\n* 999Fritsch\r\n* pcfascist\r\n* austinnorgaard",
+        "targetAbi": "12.0.1.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.3.0.0/Release-12.0.1.zip",
+        "checksum": "3320AF14E2C0E58D17C8D5C584AE3922",
+        "timestamp": "2026-09-21T10:32:00",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.10.0/Release-10.10.7.zip",
+        "checksum": "B68F1E1450F48ADBB0D59E6706AF8177",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.10.0/Release-10.11.10.zip",
+        "checksum": "640C5C63849206595E7DAD1DAE5B5EFE",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.10.0/Release-10.11.11.zip",
+        "checksum": "EC64DB525103CC0AD69151703041E015",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.10.0/Release-10.11.7.zip",
+        "checksum": "8B738C53B2494C1F4251E05629FE5EED",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.10.0/Release-10.11.8.zip",
+        "checksum": "5EF72F42A3532EBB9173F033221AD594",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.10.0/Release-10.11.9.zip",
+        "checksum": "83D014A4E5C2B23D20498B98F64D0A92",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.9.0/Release-10.10.7.zip",
+        "checksum": "1F08B5BDC4F0BB6611135BA5FCA3C6D5",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.9.0/Release-10.11.10.zip",
+        "checksum": "53DB102F51E47D8F95BF4F35A6EB9651",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.9.0/Release-10.11.7.zip",
+        "checksum": "2B3BBCE10934C1C027A6670ED2921DE3",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.9.0/Release-10.11.8.zip",
+        "checksum": "2102CB3CA362B5C0A5DC61D6AF128764",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.9.0/Release-10.11.9.zip",
+        "checksum": "AA6B1F4A79530A618511FB63CDE24A69",
+        "timestamp": "2026-05-25T19:36:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.2.8.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
         "targetAbi": "10.10.7.0",
@@ -768,6 +955,116 @@
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-collection-sections/main/src/logo.png",
     "versions": [
       {
+        "version": "2.3.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.10.zip",
+        "checksum": "35EC7E5E6A909E34C1BE3A5CDD76CC0B",
+        "timestamp": "2026-06-11T09:59:16",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.11.zip",
+        "checksum": "601CB02C36E372F542581D8481C96F77",
+        "timestamp": "2026-06-11T09:59:16",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.7.zip",
+        "checksum": "6911C1AE4066667FD2535CF7D942D573",
+        "timestamp": "2026-06-11T09:59:16",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.8.zip",
+        "checksum": "EFE1E616C8298DA9882161B47FE5CFB4",
+        "timestamp": "2026-06-11T09:59:16",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.9.zip",
+        "checksum": "3C30683149942D61FDD419D18824B0BB",
+        "timestamp": "2026-06-11T09:59:16",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.9.0/Release-10.10.7.zip",
+        "checksum": "C637ED5D641BFA2D70DDC67D6172211C",
+        "timestamp": "2026-05-25T19:57:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.9.0/Release-10.11.10.zip",
+        "checksum": "E9F44876AA62992B04F0A06EF42C31F6",
+        "timestamp": "2026-05-25T19:57:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.9.0/Release-10.11.7.zip",
+        "checksum": "413D486E118AE134BCF2128675292705",
+        "timestamp": "2026-05-25T19:57:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.9.0/Release-10.11.8.zip",
+        "checksum": "27F297FE14BAD4758CB6F7C2F3C9F5AD",
+        "timestamp": "2026-05-25T19:57:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.9.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.9.0/Release-10.11.9.zip",
+        "checksum": "F290A195D4C7E2B8A74CBA3CDC778B79",
+        "timestamp": "2026-05-25T19:57:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.8.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
         "targetAbi": "10.10.7.0",
@@ -1306,6 +1603,204 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-file-transformation/main/src/logo.png",
     "versions": [
+      {
+        "version": "3.0.1.0",
+        "changelog": "Add support for 12.1",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.1.0/Release-10.11.11.zip",
+        "checksum": "18132C4EA39587F41E9EAE181298CC1C",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "Add support for 12.1",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.1.0/Release-12.0.0.zip",
+        "checksum": "9785DDF88CE9CC593BACDBD7FA8E7B79",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "Add support for 12.1",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.1.0/Release-12.1.0.zip",
+        "checksum": "1451642C8DC6F036CB00AA703A9F0834",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🚀 A New Foundation for File Transformation\r\n\r\nFile Transformation **3.0.0.0** is a major overhaul of how the plugin integrates with Jellyfin. The transformation system has been rebuilt around standard ASP.NET Core middleware, removing much of the version-specific runtime patching that File Transformation previously relied on.\r\n\r\nAlongside **Jellyfin 12 support**, this release drops support for **Jellyfin 10.10.7** and lays a much more maintainable foundation for future Jellyfin releases.\r\n\r\n> ## 🙌 Huge thanks to @4eh5xitv6787h645ebv\r\n>\r\n> A massive part of this release is thanks to **@4eh5xitv6787h645ebv**, who took on the major overhaul of File Transformation's core architecture in PR #58.\r\n>\r\n> The move away from the old Harmony/MonoMod-based interception system to standard ASP.NET Core middleware is a significant piece of work. It not only makes File Transformation substantially easier to maintain, but also resolves an entire class of compatibility problems that caused the plugin to malfunction or be disabled on certain Jellyfin versions and platforms (#20, #35, #62, #64, #70, #71).\r\n>\r\n> This is far more than a small patch or isolated feature - it fundamentally improves the foundation the plugin is built on. A huge thank you for the time and effort that went into it.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12** and the newer Jellyfin server architecture (#34).\r\n* Replaced the previous Harmony/MonoMod-based web interception system with standard ASP.NET Core `IStartupFilter` middleware (PR #58, @4eh5xitv6787h645ebv).\r\n* Added support for unregistering transformations through `PluginInterface.RemoveTransformation(Guid)`, allowing dependent plugins to cleanly remove transformations when required.\r\n* Added support for synthesising virtual files for registered transformation paths, restoring support for plugins such as Plugin Pages where the underlying file doesn't physically exist.\r\n* Added ETag generation and `304 Not Modified` support for transformed content.\r\n* Added Brotli and gzip recompression of transformed responses for remote clients.\r\n* Added automatic MIME type detection for virtual transformed files.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Removed platform-specific DLL extraction and version-specific Jellyfin shims.\r\n* Removed dependencies on Harmony, MonoMod and Prometheus from the core transformation pipeline.\r\n* Improved compatibility across Jellyfin versions and platforms by moving the transformation system onto standard ASP.NET Core APIs (#20, #35, #62, #64).\r\n* Added per-transformation error isolation so a failure in one plugin's transformation won't prevent other transformations from running.\r\n* Made transformation registration, removal and execution thread-safe.\r\n* Added regex caching and timeout protection for transformation matching.\r\n* Improved handling of `Accept-Encoding`, including proper quality-value (`q`) parsing.\r\n* Improved LAN detection for IPv6-mapped IPv4 addresses.\r\n* Improved proxy caching behaviour by correctly setting `Vary: Accept-Encoding`.\r\n* Reworked HTTP handling to use a shared `HttpClient` with appropriate timeouts.\r\n* Hardened named-pipe transformations with timeouts, size limits, EOF handling and improved resource cleanup.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed a class of failures where Harmony/MonoMod runtime patching could cause File Transformation to malfunction or be automatically disabled on startup (#20, #35, #62, #64, #71).\r\n* Fixed #70 where transformations could attempt to use a disposed `IServiceProvider` after Jellyfin restarted, resulting in `500` responses across the web UI.\r\n* Fixed transformed content potentially retaining stale trailing bytes when a transformation produced a shorter result than the original response.\r\n* Fixed failures in one transformation potentially breaking the entire transformation pipeline.\r\n* Fixed potential `HttpClient` resource leaks.\r\n* Fixed named-pipe transformations being able to hang indefinitely or loop on zero-byte reads.\r\n* Fixed incorrect handling of disabled compression encodings such as `gzip;q=0`.\r\n* Fixed failed virtual-file transformations returning an empty successful response instead of reverting to the original `404`.\r\n* Improved middleware failure handling so the original response is served if transformation or recompression fails.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe existing `PluginInterface.RegisterTransformation` API and registration payload remain compatible with previous releases, so plugins using a standard transformation callback **should not need to change how they register transformations**.\r\n\r\nThere are, however, some changes to transformation execution that plugin developers should be aware of:\r\n\r\n* Added `PluginInterface.RemoveTransformation(Guid)`, allowing plugins to explicitly unregister a previously registered transformation.\r\n* Assembly callbacks still receive the same payload and are expected to return the transformed content as a `string`.\r\n* Invalid or failed assembly callbacks now **fail safely rather than falling through to another configured callback mechanism**. Plugins should ensure their callback assembly, class and method names are valid.\r\n* HTTP transformation callbacks must now return a **successful HTTP status code**. Non-success responses are treated as a failed transformation rather than using the response body as transformed content.\r\n* HTTP callbacks now have a **15 second timeout**.\r\n* Named-pipe callbacks now have connection/error handling and a **50 MB maximum response size**.\r\n* Failed transformations now leave the original response untouched rather than potentially replacing it with invalid or partial output.\r\n\r\nThese changes are intended to make transformations significantly safer and more predictable, but plugins relying on the previous fallback or error behaviour should review their integrations when updating.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12** and its newer server architecture (#34).\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier File Transformation release until they upgrade Jellyfin.\r\n* Removed legacy Harmony/MonoMod runtime patching and version-specific Jellyfin shims.\r\n* File Transformation now relies on standard ASP.NET Core middleware rather than patching Jellyfin internals, providing a much more stable base for future Jellyfin versions.\r\n\r\n## Contributors\r\n\r\n* 4eh5xitv6787h645ebv\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.0.0/Release-10.11.10.zip",
+        "checksum": "8DA086877EFBC8D91F476847EB558583",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🚀 A New Foundation for File Transformation\r\n\r\nFile Transformation **3.0.0.0** is a major overhaul of how the plugin integrates with Jellyfin. The transformation system has been rebuilt around standard ASP.NET Core middleware, removing much of the version-specific runtime patching that File Transformation previously relied on.\r\n\r\nAlongside **Jellyfin 12 support**, this release drops support for **Jellyfin 10.10.7** and lays a much more maintainable foundation for future Jellyfin releases.\r\n\r\n> ## 🙌 Huge thanks to @4eh5xitv6787h645ebv\r\n>\r\n> A massive part of this release is thanks to **@4eh5xitv6787h645ebv**, who took on the major overhaul of File Transformation's core architecture in PR #58.\r\n>\r\n> The move away from the old Harmony/MonoMod-based interception system to standard ASP.NET Core middleware is a significant piece of work. It not only makes File Transformation substantially easier to maintain, but also resolves an entire class of compatibility problems that caused the plugin to malfunction or be disabled on certain Jellyfin versions and platforms (#20, #35, #62, #64, #70, #71).\r\n>\r\n> This is far more than a small patch or isolated feature - it fundamentally improves the foundation the plugin is built on. A huge thank you for the time and effort that went into it.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12** and the newer Jellyfin server architecture (#34).\r\n* Replaced the previous Harmony/MonoMod-based web interception system with standard ASP.NET Core `IStartupFilter` middleware (PR #58, @4eh5xitv6787h645ebv).\r\n* Added support for unregistering transformations through `PluginInterface.RemoveTransformation(Guid)`, allowing dependent plugins to cleanly remove transformations when required.\r\n* Added support for synthesising virtual files for registered transformation paths, restoring support for plugins such as Plugin Pages where the underlying file doesn't physically exist.\r\n* Added ETag generation and `304 Not Modified` support for transformed content.\r\n* Added Brotli and gzip recompression of transformed responses for remote clients.\r\n* Added automatic MIME type detection for virtual transformed files.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Removed platform-specific DLL extraction and version-specific Jellyfin shims.\r\n* Removed dependencies on Harmony, MonoMod and Prometheus from the core transformation pipeline.\r\n* Improved compatibility across Jellyfin versions and platforms by moving the transformation system onto standard ASP.NET Core APIs (#20, #35, #62, #64).\r\n* Added per-transformation error isolation so a failure in one plugin's transformation won't prevent other transformations from running.\r\n* Made transformation registration, removal and execution thread-safe.\r\n* Added regex caching and timeout protection for transformation matching.\r\n* Improved handling of `Accept-Encoding`, including proper quality-value (`q`) parsing.\r\n* Improved LAN detection for IPv6-mapped IPv4 addresses.\r\n* Improved proxy caching behaviour by correctly setting `Vary: Accept-Encoding`.\r\n* Reworked HTTP handling to use a shared `HttpClient` with appropriate timeouts.\r\n* Hardened named-pipe transformations with timeouts, size limits, EOF handling and improved resource cleanup.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed a class of failures where Harmony/MonoMod runtime patching could cause File Transformation to malfunction or be automatically disabled on startup (#20, #35, #62, #64, #71).\r\n* Fixed #70 where transformations could attempt to use a disposed `IServiceProvider` after Jellyfin restarted, resulting in `500` responses across the web UI.\r\n* Fixed transformed content potentially retaining stale trailing bytes when a transformation produced a shorter result than the original response.\r\n* Fixed failures in one transformation potentially breaking the entire transformation pipeline.\r\n* Fixed potential `HttpClient` resource leaks.\r\n* Fixed named-pipe transformations being able to hang indefinitely or loop on zero-byte reads.\r\n* Fixed incorrect handling of disabled compression encodings such as `gzip;q=0`.\r\n* Fixed failed virtual-file transformations returning an empty successful response instead of reverting to the original `404`.\r\n* Improved middleware failure handling so the original response is served if transformation or recompression fails.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe existing `PluginInterface.RegisterTransformation` API and registration payload remain compatible with previous releases, so plugins using a standard transformation callback **should not need to change how they register transformations**.\r\n\r\nThere are, however, some changes to transformation execution that plugin developers should be aware of:\r\n\r\n* Added `PluginInterface.RemoveTransformation(Guid)`, allowing plugins to explicitly unregister a previously registered transformation.\r\n* Assembly callbacks still receive the same payload and are expected to return the transformed content as a `string`.\r\n* Invalid or failed assembly callbacks now **fail safely rather than falling through to another configured callback mechanism**. Plugins should ensure their callback assembly, class and method names are valid.\r\n* HTTP transformation callbacks must now return a **successful HTTP status code**. Non-success responses are treated as a failed transformation rather than using the response body as transformed content.\r\n* HTTP callbacks now have a **15 second timeout**.\r\n* Named-pipe callbacks now have connection/error handling and a **50 MB maximum response size**.\r\n* Failed transformations now leave the original response untouched rather than potentially replacing it with invalid or partial output.\r\n\r\nThese changes are intended to make transformations significantly safer and more predictable, but plugins relying on the previous fallback or error behaviour should review their integrations when updating.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12** and its newer server architecture (#34).\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier File Transformation release until they upgrade Jellyfin.\r\n* Removed legacy Harmony/MonoMod runtime patching and version-specific Jellyfin shims.\r\n* File Transformation now relies on standard ASP.NET Core middleware rather than patching Jellyfin internals, providing a much more stable base for future Jellyfin versions.\r\n\r\n## Contributors\r\n\r\n* 4eh5xitv6787h645ebv\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.0.0/Release-10.11.11.zip",
+        "checksum": "690E7CB4CF45C6984F02AD0D97E1DDDC",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🚀 A New Foundation for File Transformation\r\n\r\nFile Transformation **3.0.0.0** is a major overhaul of how the plugin integrates with Jellyfin. The transformation system has been rebuilt around standard ASP.NET Core middleware, removing much of the version-specific runtime patching that File Transformation previously relied on.\r\n\r\nAlongside **Jellyfin 12 support**, this release drops support for **Jellyfin 10.10.7** and lays a much more maintainable foundation for future Jellyfin releases.\r\n\r\n> ## 🙌 Huge thanks to @4eh5xitv6787h645ebv\r\n>\r\n> A massive part of this release is thanks to **@4eh5xitv6787h645ebv**, who took on the major overhaul of File Transformation's core architecture in PR #58.\r\n>\r\n> The move away from the old Harmony/MonoMod-based interception system to standard ASP.NET Core middleware is a significant piece of work. It not only makes File Transformation substantially easier to maintain, but also resolves an entire class of compatibility problems that caused the plugin to malfunction or be disabled on certain Jellyfin versions and platforms (#20, #35, #62, #64, #70, #71).\r\n>\r\n> This is far more than a small patch or isolated feature - it fundamentally improves the foundation the plugin is built on. A huge thank you for the time and effort that went into it.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12** and the newer Jellyfin server architecture (#34).\r\n* Replaced the previous Harmony/MonoMod-based web interception system with standard ASP.NET Core `IStartupFilter` middleware (PR #58, @4eh5xitv6787h645ebv).\r\n* Added support for unregistering transformations through `PluginInterface.RemoveTransformation(Guid)`, allowing dependent plugins to cleanly remove transformations when required.\r\n* Added support for synthesising virtual files for registered transformation paths, restoring support for plugins such as Plugin Pages where the underlying file doesn't physically exist.\r\n* Added ETag generation and `304 Not Modified` support for transformed content.\r\n* Added Brotli and gzip recompression of transformed responses for remote clients.\r\n* Added automatic MIME type detection for virtual transformed files.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Removed platform-specific DLL extraction and version-specific Jellyfin shims.\r\n* Removed dependencies on Harmony, MonoMod and Prometheus from the core transformation pipeline.\r\n* Improved compatibility across Jellyfin versions and platforms by moving the transformation system onto standard ASP.NET Core APIs (#20, #35, #62, #64).\r\n* Added per-transformation error isolation so a failure in one plugin's transformation won't prevent other transformations from running.\r\n* Made transformation registration, removal and execution thread-safe.\r\n* Added regex caching and timeout protection for transformation matching.\r\n* Improved handling of `Accept-Encoding`, including proper quality-value (`q`) parsing.\r\n* Improved LAN detection for IPv6-mapped IPv4 addresses.\r\n* Improved proxy caching behaviour by correctly setting `Vary: Accept-Encoding`.\r\n* Reworked HTTP handling to use a shared `HttpClient` with appropriate timeouts.\r\n* Hardened named-pipe transformations with timeouts, size limits, EOF handling and improved resource cleanup.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed a class of failures where Harmony/MonoMod runtime patching could cause File Transformation to malfunction or be automatically disabled on startup (#20, #35, #62, #64, #71).\r\n* Fixed #70 where transformations could attempt to use a disposed `IServiceProvider` after Jellyfin restarted, resulting in `500` responses across the web UI.\r\n* Fixed transformed content potentially retaining stale trailing bytes when a transformation produced a shorter result than the original response.\r\n* Fixed failures in one transformation potentially breaking the entire transformation pipeline.\r\n* Fixed potential `HttpClient` resource leaks.\r\n* Fixed named-pipe transformations being able to hang indefinitely or loop on zero-byte reads.\r\n* Fixed incorrect handling of disabled compression encodings such as `gzip;q=0`.\r\n* Fixed failed virtual-file transformations returning an empty successful response instead of reverting to the original `404`.\r\n* Improved middleware failure handling so the original response is served if transformation or recompression fails.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe existing `PluginInterface.RegisterTransformation` API and registration payload remain compatible with previous releases, so plugins using a standard transformation callback **should not need to change how they register transformations**.\r\n\r\nThere are, however, some changes to transformation execution that plugin developers should be aware of:\r\n\r\n* Added `PluginInterface.RemoveTransformation(Guid)`, allowing plugins to explicitly unregister a previously registered transformation.\r\n* Assembly callbacks still receive the same payload and are expected to return the transformed content as a `string`.\r\n* Invalid or failed assembly callbacks now **fail safely rather than falling through to another configured callback mechanism**. Plugins should ensure their callback assembly, class and method names are valid.\r\n* HTTP transformation callbacks must now return a **successful HTTP status code**. Non-success responses are treated as a failed transformation rather than using the response body as transformed content.\r\n* HTTP callbacks now have a **15 second timeout**.\r\n* Named-pipe callbacks now have connection/error handling and a **50 MB maximum response size**.\r\n* Failed transformations now leave the original response untouched rather than potentially replacing it with invalid or partial output.\r\n\r\nThese changes are intended to make transformations significantly safer and more predictable, but plugins relying on the previous fallback or error behaviour should review their integrations when updating.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12** and its newer server architecture (#34).\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier File Transformation release until they upgrade Jellyfin.\r\n* Removed legacy Harmony/MonoMod runtime patching and version-specific Jellyfin shims.\r\n* File Transformation now relies on standard ASP.NET Core middleware rather than patching Jellyfin internals, providing a much more stable base for future Jellyfin versions.\r\n\r\n## Contributors\r\n\r\n* 4eh5xitv6787h645ebv\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.0.0/Release-10.11.7.zip",
+        "checksum": "6753DC76B635A4C3B4557ADA2AD07AAA",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🚀 A New Foundation for File Transformation\r\n\r\nFile Transformation **3.0.0.0** is a major overhaul of how the plugin integrates with Jellyfin. The transformation system has been rebuilt around standard ASP.NET Core middleware, removing much of the version-specific runtime patching that File Transformation previously relied on.\r\n\r\nAlongside **Jellyfin 12 support**, this release drops support for **Jellyfin 10.10.7** and lays a much more maintainable foundation for future Jellyfin releases.\r\n\r\n> ## 🙌 Huge thanks to @4eh5xitv6787h645ebv\r\n>\r\n> A massive part of this release is thanks to **@4eh5xitv6787h645ebv**, who took on the major overhaul of File Transformation's core architecture in PR #58.\r\n>\r\n> The move away from the old Harmony/MonoMod-based interception system to standard ASP.NET Core middleware is a significant piece of work. It not only makes File Transformation substantially easier to maintain, but also resolves an entire class of compatibility problems that caused the plugin to malfunction or be disabled on certain Jellyfin versions and platforms (#20, #35, #62, #64, #70, #71).\r\n>\r\n> This is far more than a small patch or isolated feature - it fundamentally improves the foundation the plugin is built on. A huge thank you for the time and effort that went into it.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12** and the newer Jellyfin server architecture (#34).\r\n* Replaced the previous Harmony/MonoMod-based web interception system with standard ASP.NET Core `IStartupFilter` middleware (PR #58, @4eh5xitv6787h645ebv).\r\n* Added support for unregistering transformations through `PluginInterface.RemoveTransformation(Guid)`, allowing dependent plugins to cleanly remove transformations when required.\r\n* Added support for synthesising virtual files for registered transformation paths, restoring support for plugins such as Plugin Pages where the underlying file doesn't physically exist.\r\n* Added ETag generation and `304 Not Modified` support for transformed content.\r\n* Added Brotli and gzip recompression of transformed responses for remote clients.\r\n* Added automatic MIME type detection for virtual transformed files.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Removed platform-specific DLL extraction and version-specific Jellyfin shims.\r\n* Removed dependencies on Harmony, MonoMod and Prometheus from the core transformation pipeline.\r\n* Improved compatibility across Jellyfin versions and platforms by moving the transformation system onto standard ASP.NET Core APIs (#20, #35, #62, #64).\r\n* Added per-transformation error isolation so a failure in one plugin's transformation won't prevent other transformations from running.\r\n* Made transformation registration, removal and execution thread-safe.\r\n* Added regex caching and timeout protection for transformation matching.\r\n* Improved handling of `Accept-Encoding`, including proper quality-value (`q`) parsing.\r\n* Improved LAN detection for IPv6-mapped IPv4 addresses.\r\n* Improved proxy caching behaviour by correctly setting `Vary: Accept-Encoding`.\r\n* Reworked HTTP handling to use a shared `HttpClient` with appropriate timeouts.\r\n* Hardened named-pipe transformations with timeouts, size limits, EOF handling and improved resource cleanup.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed a class of failures where Harmony/MonoMod runtime patching could cause File Transformation to malfunction or be automatically disabled on startup (#20, #35, #62, #64, #71).\r\n* Fixed #70 where transformations could attempt to use a disposed `IServiceProvider` after Jellyfin restarted, resulting in `500` responses across the web UI.\r\n* Fixed transformed content potentially retaining stale trailing bytes when a transformation produced a shorter result than the original response.\r\n* Fixed failures in one transformation potentially breaking the entire transformation pipeline.\r\n* Fixed potential `HttpClient` resource leaks.\r\n* Fixed named-pipe transformations being able to hang indefinitely or loop on zero-byte reads.\r\n* Fixed incorrect handling of disabled compression encodings such as `gzip;q=0`.\r\n* Fixed failed virtual-file transformations returning an empty successful response instead of reverting to the original `404`.\r\n* Improved middleware failure handling so the original response is served if transformation or recompression fails.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe existing `PluginInterface.RegisterTransformation` API and registration payload remain compatible with previous releases, so plugins using a standard transformation callback **should not need to change how they register transformations**.\r\n\r\nThere are, however, some changes to transformation execution that plugin developers should be aware of:\r\n\r\n* Added `PluginInterface.RemoveTransformation(Guid)`, allowing plugins to explicitly unregister a previously registered transformation.\r\n* Assembly callbacks still receive the same payload and are expected to return the transformed content as a `string`.\r\n* Invalid or failed assembly callbacks now **fail safely rather than falling through to another configured callback mechanism**. Plugins should ensure their callback assembly, class and method names are valid.\r\n* HTTP transformation callbacks must now return a **successful HTTP status code**. Non-success responses are treated as a failed transformation rather than using the response body as transformed content.\r\n* HTTP callbacks now have a **15 second timeout**.\r\n* Named-pipe callbacks now have connection/error handling and a **50 MB maximum response size**.\r\n* Failed transformations now leave the original response untouched rather than potentially replacing it with invalid or partial output.\r\n\r\nThese changes are intended to make transformations significantly safer and more predictable, but plugins relying on the previous fallback or error behaviour should review their integrations when updating.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12** and its newer server architecture (#34).\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier File Transformation release until they upgrade Jellyfin.\r\n* Removed legacy Harmony/MonoMod runtime patching and version-specific Jellyfin shims.\r\n* File Transformation now relies on standard ASP.NET Core middleware rather than patching Jellyfin internals, providing a much more stable base for future Jellyfin versions.\r\n\r\n## Contributors\r\n\r\n* 4eh5xitv6787h645ebv\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.0.0/Release-10.11.8.zip",
+        "checksum": "6907A353748E4C20E6A49CF5082A6A8A",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🚀 A New Foundation for File Transformation\r\n\r\nFile Transformation **3.0.0.0** is a major overhaul of how the plugin integrates with Jellyfin. The transformation system has been rebuilt around standard ASP.NET Core middleware, removing much of the version-specific runtime patching that File Transformation previously relied on.\r\n\r\nAlongside **Jellyfin 12 support**, this release drops support for **Jellyfin 10.10.7** and lays a much more maintainable foundation for future Jellyfin releases.\r\n\r\n> ## 🙌 Huge thanks to @4eh5xitv6787h645ebv\r\n>\r\n> A massive part of this release is thanks to **@4eh5xitv6787h645ebv**, who took on the major overhaul of File Transformation's core architecture in PR #58.\r\n>\r\n> The move away from the old Harmony/MonoMod-based interception system to standard ASP.NET Core middleware is a significant piece of work. It not only makes File Transformation substantially easier to maintain, but also resolves an entire class of compatibility problems that caused the plugin to malfunction or be disabled on certain Jellyfin versions and platforms (#20, #35, #62, #64, #70, #71).\r\n>\r\n> This is far more than a small patch or isolated feature - it fundamentally improves the foundation the plugin is built on. A huge thank you for the time and effort that went into it.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12** and the newer Jellyfin server architecture (#34).\r\n* Replaced the previous Harmony/MonoMod-based web interception system with standard ASP.NET Core `IStartupFilter` middleware (PR #58, @4eh5xitv6787h645ebv).\r\n* Added support for unregistering transformations through `PluginInterface.RemoveTransformation(Guid)`, allowing dependent plugins to cleanly remove transformations when required.\r\n* Added support for synthesising virtual files for registered transformation paths, restoring support for plugins such as Plugin Pages where the underlying file doesn't physically exist.\r\n* Added ETag generation and `304 Not Modified` support for transformed content.\r\n* Added Brotli and gzip recompression of transformed responses for remote clients.\r\n* Added automatic MIME type detection for virtual transformed files.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Removed platform-specific DLL extraction and version-specific Jellyfin shims.\r\n* Removed dependencies on Harmony, MonoMod and Prometheus from the core transformation pipeline.\r\n* Improved compatibility across Jellyfin versions and platforms by moving the transformation system onto standard ASP.NET Core APIs (#20, #35, #62, #64).\r\n* Added per-transformation error isolation so a failure in one plugin's transformation won't prevent other transformations from running.\r\n* Made transformation registration, removal and execution thread-safe.\r\n* Added regex caching and timeout protection for transformation matching.\r\n* Improved handling of `Accept-Encoding`, including proper quality-value (`q`) parsing.\r\n* Improved LAN detection for IPv6-mapped IPv4 addresses.\r\n* Improved proxy caching behaviour by correctly setting `Vary: Accept-Encoding`.\r\n* Reworked HTTP handling to use a shared `HttpClient` with appropriate timeouts.\r\n* Hardened named-pipe transformations with timeouts, size limits, EOF handling and improved resource cleanup.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed a class of failures where Harmony/MonoMod runtime patching could cause File Transformation to malfunction or be automatically disabled on startup (#20, #35, #62, #64, #71).\r\n* Fixed #70 where transformations could attempt to use a disposed `IServiceProvider` after Jellyfin restarted, resulting in `500` responses across the web UI.\r\n* Fixed transformed content potentially retaining stale trailing bytes when a transformation produced a shorter result than the original response.\r\n* Fixed failures in one transformation potentially breaking the entire transformation pipeline.\r\n* Fixed potential `HttpClient` resource leaks.\r\n* Fixed named-pipe transformations being able to hang indefinitely or loop on zero-byte reads.\r\n* Fixed incorrect handling of disabled compression encodings such as `gzip;q=0`.\r\n* Fixed failed virtual-file transformations returning an empty successful response instead of reverting to the original `404`.\r\n* Improved middleware failure handling so the original response is served if transformation or recompression fails.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe existing `PluginInterface.RegisterTransformation` API and registration payload remain compatible with previous releases, so plugins using a standard transformation callback **should not need to change how they register transformations**.\r\n\r\nThere are, however, some changes to transformation execution that plugin developers should be aware of:\r\n\r\n* Added `PluginInterface.RemoveTransformation(Guid)`, allowing plugins to explicitly unregister a previously registered transformation.\r\n* Assembly callbacks still receive the same payload and are expected to return the transformed content as a `string`.\r\n* Invalid or failed assembly callbacks now **fail safely rather than falling through to another configured callback mechanism**. Plugins should ensure their callback assembly, class and method names are valid.\r\n* HTTP transformation callbacks must now return a **successful HTTP status code**. Non-success responses are treated as a failed transformation rather than using the response body as transformed content.\r\n* HTTP callbacks now have a **15 second timeout**.\r\n* Named-pipe callbacks now have connection/error handling and a **50 MB maximum response size**.\r\n* Failed transformations now leave the original response untouched rather than potentially replacing it with invalid or partial output.\r\n\r\nThese changes are intended to make transformations significantly safer and more predictable, but plugins relying on the previous fallback or error behaviour should review their integrations when updating.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12** and its newer server architecture (#34).\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier File Transformation release until they upgrade Jellyfin.\r\n* Removed legacy Harmony/MonoMod runtime patching and version-specific Jellyfin shims.\r\n* File Transformation now relies on standard ASP.NET Core middleware rather than patching Jellyfin internals, providing a much more stable base for future Jellyfin versions.\r\n\r\n## Contributors\r\n\r\n* 4eh5xitv6787h645ebv\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.0.0/Release-10.11.9.zip",
+        "checksum": "276479DFEF93C91DD4C47B0E6F217128",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🚀 A New Foundation for File Transformation\r\n\r\nFile Transformation **3.0.0.0** is a major overhaul of how the plugin integrates with Jellyfin. The transformation system has been rebuilt around standard ASP.NET Core middleware, removing much of the version-specific runtime patching that File Transformation previously relied on.\r\n\r\nAlongside **Jellyfin 12 support**, this release drops support for **Jellyfin 10.10.7** and lays a much more maintainable foundation for future Jellyfin releases.\r\n\r\n> ## 🙌 Huge thanks to @4eh5xitv6787h645ebv\r\n>\r\n> A massive part of this release is thanks to **@4eh5xitv6787h645ebv**, who took on the major overhaul of File Transformation's core architecture in PR #58.\r\n>\r\n> The move away from the old Harmony/MonoMod-based interception system to standard ASP.NET Core middleware is a significant piece of work. It not only makes File Transformation substantially easier to maintain, but also resolves an entire class of compatibility problems that caused the plugin to malfunction or be disabled on certain Jellyfin versions and platforms (#20, #35, #62, #64, #70, #71).\r\n>\r\n> This is far more than a small patch or isolated feature - it fundamentally improves the foundation the plugin is built on. A huge thank you for the time and effort that went into it.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12** and the newer Jellyfin server architecture (#34).\r\n* Replaced the previous Harmony/MonoMod-based web interception system with standard ASP.NET Core `IStartupFilter` middleware (PR #58, @4eh5xitv6787h645ebv).\r\n* Added support for unregistering transformations through `PluginInterface.RemoveTransformation(Guid)`, allowing dependent plugins to cleanly remove transformations when required.\r\n* Added support for synthesising virtual files for registered transformation paths, restoring support for plugins such as Plugin Pages where the underlying file doesn't physically exist.\r\n* Added ETag generation and `304 Not Modified` support for transformed content.\r\n* Added Brotli and gzip recompression of transformed responses for remote clients.\r\n* Added automatic MIME type detection for virtual transformed files.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Removed platform-specific DLL extraction and version-specific Jellyfin shims.\r\n* Removed dependencies on Harmony, MonoMod and Prometheus from the core transformation pipeline.\r\n* Improved compatibility across Jellyfin versions and platforms by moving the transformation system onto standard ASP.NET Core APIs (#20, #35, #62, #64).\r\n* Added per-transformation error isolation so a failure in one plugin's transformation won't prevent other transformations from running.\r\n* Made transformation registration, removal and execution thread-safe.\r\n* Added regex caching and timeout protection for transformation matching.\r\n* Improved handling of `Accept-Encoding`, including proper quality-value (`q`) parsing.\r\n* Improved LAN detection for IPv6-mapped IPv4 addresses.\r\n* Improved proxy caching behaviour by correctly setting `Vary: Accept-Encoding`.\r\n* Reworked HTTP handling to use a shared `HttpClient` with appropriate timeouts.\r\n* Hardened named-pipe transformations with timeouts, size limits, EOF handling and improved resource cleanup.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed a class of failures where Harmony/MonoMod runtime patching could cause File Transformation to malfunction or be automatically disabled on startup (#20, #35, #62, #64, #71).\r\n* Fixed #70 where transformations could attempt to use a disposed `IServiceProvider` after Jellyfin restarted, resulting in `500` responses across the web UI.\r\n* Fixed transformed content potentially retaining stale trailing bytes when a transformation produced a shorter result than the original response.\r\n* Fixed failures in one transformation potentially breaking the entire transformation pipeline.\r\n* Fixed potential `HttpClient` resource leaks.\r\n* Fixed named-pipe transformations being able to hang indefinitely or loop on zero-byte reads.\r\n* Fixed incorrect handling of disabled compression encodings such as `gzip;q=0`.\r\n* Fixed failed virtual-file transformations returning an empty successful response instead of reverting to the original `404`.\r\n* Improved middleware failure handling so the original response is served if transformation or recompression fails.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe existing `PluginInterface.RegisterTransformation` API and registration payload remain compatible with previous releases, so plugins using a standard transformation callback **should not need to change how they register transformations**.\r\n\r\nThere are, however, some changes to transformation execution that plugin developers should be aware of:\r\n\r\n* Added `PluginInterface.RemoveTransformation(Guid)`, allowing plugins to explicitly unregister a previously registered transformation.\r\n* Assembly callbacks still receive the same payload and are expected to return the transformed content as a `string`.\r\n* Invalid or failed assembly callbacks now **fail safely rather than falling through to another configured callback mechanism**. Plugins should ensure their callback assembly, class and method names are valid.\r\n* HTTP transformation callbacks must now return a **successful HTTP status code**. Non-success responses are treated as a failed transformation rather than using the response body as transformed content.\r\n* HTTP callbacks now have a **15 second timeout**.\r\n* Named-pipe callbacks now have connection/error handling and a **50 MB maximum response size**.\r\n* Failed transformations now leave the original response untouched rather than potentially replacing it with invalid or partial output.\r\n\r\nThese changes are intended to make transformations significantly safer and more predictable, but plugins relying on the previous fallback or error behaviour should review their integrations when updating.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12** and its newer server architecture (#34).\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier File Transformation release until they upgrade Jellyfin.\r\n* Removed legacy Harmony/MonoMod runtime patching and version-specific Jellyfin shims.\r\n* File Transformation now relies on standard ASP.NET Core middleware rather than patching Jellyfin internals, providing a much more stable base for future Jellyfin versions.\r\n\r\n## Contributors\r\n\r\n* 4eh5xitv6787h645ebv\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.0.0/Release-12.0.0.zip",
+        "checksum": "6F03451BBA1C19A9A49E8ECCD80ECD97",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.11.0/Release-10.11.10.zip",
+        "checksum": "9D586D77B00F31F6239A080AB91084EE",
+        "timestamp": "2026-04-15T22:27:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.11.0/Release-10.11.11.zip",
+        "checksum": "31FCD58D863995C0A3047D2266D72EF6",
+        "timestamp": "2026-04-15T22:27:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.11.0/Release-10.11.7.zip",
+        "checksum": "7EED747E1C9494B6B95B648B36500CE3",
+        "timestamp": "2026-04-15T22:27:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.11.0/Release-10.11.8.zip",
+        "checksum": "7728D9EAA3F17AF783D15B0E47EDB4C3",
+        "timestamp": "2026-04-15T22:27:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.11.0/Release-10.11.9.zip",
+        "checksum": "BAC7C309DE0BB3B348799305D610771D",
+        "timestamp": "2026-04-15T22:27:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.10.0/Release-10.11.10.zip",
+        "checksum": "1D2E062DF379055451D205866152A685",
+        "timestamp": "2026-04-15T22:27:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.10.0/Release-10.11.7.zip",
+        "checksum": "41C83E1FEDCD05CD58FADE514F750584",
+        "timestamp": "2026-04-15T22:27:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.10.0/Release-10.11.8.zip",
+        "checksum": "8DE1ED96BC55AB227076CE3A088B8517",
+        "timestamp": "2026-04-15T22:27:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.10.0/Release-10.11.9.zip",
+        "checksum": "394263F5FBA3D5D3CD4DB23C1B8D51E5",
+        "timestamp": "2026-04-15T22:27:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.5.9.0",
         "changelog": "🪲 Bug Fixes\r\n \r\n - Fixed issue #55 introduced in #52 where transformation wouldn’t register properly due to DI hishap (PR #56, @4eh5xitv6787h645ebv)",
@@ -2253,6 +2748,204 @@
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-media-bar/main/src/logo.png",
     "versions": [
       {
+        "version": "3.0.0.0",
+        "changelog": "# 🎬 Media Bar Arrives on Jellyfin 12\r\n\r\nMedia Bar **3.0.0.0** brings support for **Jellyfin 12**, including compatibility with both the classic desktop experience and Jellyfin's newer modern web layout.\r\n\r\n> ## 🙌 Huge thanks to MakD and the upstream contributors\r\n>\r\n> Media Bar itself is the work of **MakD and the contributors to the upstream Media Bar project**. The plugin I maintain is primarily a Jellyfin wrapper around that work, exposing configuration and integration points so it can be installed and managed cleanly as a Jellyfin plugin.\r\n>\r\n> A huge amount of effort has gone into keeping Media Bar working across Jellyfin's changing web interface, especially for Jellyfin 12. The features, UI work and frontend improvements in this release are built on that upstream work, and the credit for that belongs to **MakD and everyone contributing there**.\r\n>\r\n> My part is largely packaging, integrating and exposing that work through Jellyfin's plugin system.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added support for Jellyfin 12's **modern React/MUI home screen layout**, alongside the existing classic desktop layout.\r\n* Updated the bundled Media Bar frontend to the latest Jellyfin 12-compatible upstream version.\r\n* Added Jellyfin 12-specific styling so Media Bar integrates correctly with the new web-client shell while retaining the existing appearance on the classic layout.\r\n* Media Bar continues to ship its frontend assets directly with the plugin, ensuring the version displayed in Jellyfin matches the plugin version you've installed.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Synced Media Bar with the latest Jellyfin 12-compatible upstream work.\r\n* Improved Media Bar placement within the Jellyfin 12 home screen across both supported layouts.\r\n* Improved layout behaviour on taller displays, ensuring Jellyfin's home-screen rows remain below the Media Bar content rather than overlapping its controls.\r\n* Improved localisation handling when loading Jellyfin's translation chunks.\r\n* Retained support for the **Get updates early** option for users who explicitly want to track unreleased upstream Media Bar changes.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed Media Bar being inserted in the wrong position when using Jellyfin 12's modern layout (#181).\r\n* Fixed translated Media Bar strings falling back to English or producing JSON decoding errors for some languages (#185).\r\n* Fixed home-screen rows overlapping Media Bar buttons on taller viewports.\r\n* Fixed Jellyfin 12 layout differences that could cause Media Bar to render incorrectly compared with Jellyfin 10.11.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Media Bar 3.0.0.0 supports Jellyfin 10.11.11 and Jellyfin 12.**\r\n* Users on older Jellyfin 10.x versions should remain on a compatible **2.x** Media Bar release.\r\n* Jellyfin 12 support includes both the **classic Desktop layout** and the newer **modern React/MUI layout**.\r\n* A compatible **File Transformation 3.x** release is required.\r\n* If you're using the **Get updates early** option, unreleased upstream Media Bar changes may behave differently from the frontend bundled and tested with this plugin release.\r\n\r\n## Contributors\r\n\r\n* austinnorgaard\r\n* judarange\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.0.0/Release-10.11.11.zip",
+        "checksum": "0DAFD776CF5414EED477A46894CF8709",
+        "timestamp": "2026-09-15T20:41:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🎬 Media Bar Arrives on Jellyfin 12\r\n\r\nMedia Bar **3.0.0.0** brings support for **Jellyfin 12**, including compatibility with both the classic desktop experience and Jellyfin's newer modern web layout.\r\n\r\n> ## 🙌 Huge thanks to MakD and the upstream contributors\r\n>\r\n> Media Bar itself is the work of **MakD and the contributors to the upstream Media Bar project**. The plugin I maintain is primarily a Jellyfin wrapper around that work, exposing configuration and integration points so it can be installed and managed cleanly as a Jellyfin plugin.\r\n>\r\n> A huge amount of effort has gone into keeping Media Bar working across Jellyfin's changing web interface, especially for Jellyfin 12. The features, UI work and frontend improvements in this release are built on that upstream work, and the credit for that belongs to **MakD and everyone contributing there**.\r\n>\r\n> My part is largely packaging, integrating and exposing that work through Jellyfin's plugin system.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added support for Jellyfin 12's **modern React/MUI home screen layout**, alongside the existing classic desktop layout.\r\n* Updated the bundled Media Bar frontend to the latest Jellyfin 12-compatible upstream version.\r\n* Added Jellyfin 12-specific styling so Media Bar integrates correctly with the new web-client shell while retaining the existing appearance on the classic layout.\r\n* Media Bar continues to ship its frontend assets directly with the plugin, ensuring the version displayed in Jellyfin matches the plugin version you've installed.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Synced Media Bar with the latest Jellyfin 12-compatible upstream work.\r\n* Improved Media Bar placement within the Jellyfin 12 home screen across both supported layouts.\r\n* Improved layout behaviour on taller displays, ensuring Jellyfin's home-screen rows remain below the Media Bar content rather than overlapping its controls.\r\n* Improved localisation handling when loading Jellyfin's translation chunks.\r\n* Retained support for the **Get updates early** option for users who explicitly want to track unreleased upstream Media Bar changes.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed Media Bar being inserted in the wrong position when using Jellyfin 12's modern layout (#181).\r\n* Fixed translated Media Bar strings falling back to English or producing JSON decoding errors for some languages (#185).\r\n* Fixed home-screen rows overlapping Media Bar buttons on taller viewports.\r\n* Fixed Jellyfin 12 layout differences that could cause Media Bar to render incorrectly compared with Jellyfin 10.11.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Media Bar 3.0.0.0 supports Jellyfin 10.11.11 and Jellyfin 12.**\r\n* Users on older Jellyfin 10.x versions should remain on a compatible **2.x** Media Bar release.\r\n* Jellyfin 12 support includes both the **classic Desktop layout** and the newer **modern React/MUI layout**.\r\n* A compatible **File Transformation 3.x** release is required.\r\n* If you're using the **Get updates early** option, unreleased upstream Media Bar changes may behave differently from the frontend bundled and tested with this plugin release.\r\n\r\n## Contributors\r\n\r\n* austinnorgaard\r\n* judarange\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.0.0/Release-12.0.0.zip",
+        "checksum": "484E93AB1BBFED7022DB2FCED04C6357",
+        "timestamp": "2026-09-15T20:41:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🎬 Media Bar Arrives on Jellyfin 12\r\n\r\nMedia Bar **3.0.0.0** brings support for **Jellyfin 12**, including compatibility with both the classic desktop experience and Jellyfin's newer modern web layout.\r\n\r\n> ## 🙌 Huge thanks to MakD and the upstream contributors\r\n>\r\n> Media Bar itself is the work of **MakD and the contributors to the upstream Media Bar project**. The plugin I maintain is primarily a Jellyfin wrapper around that work, exposing configuration and integration points so it can be installed and managed cleanly as a Jellyfin plugin.\r\n>\r\n> A huge amount of effort has gone into keeping Media Bar working across Jellyfin's changing web interface, especially for Jellyfin 12. The features, UI work and frontend improvements in this release are built on that upstream work, and the credit for that belongs to **MakD and everyone contributing there**.\r\n>\r\n> My part is largely packaging, integrating and exposing that work through Jellyfin's plugin system.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added support for Jellyfin 12's **modern React/MUI home screen layout**, alongside the existing classic desktop layout.\r\n* Updated the bundled Media Bar frontend to the latest Jellyfin 12-compatible upstream version.\r\n* Added Jellyfin 12-specific styling so Media Bar integrates correctly with the new web-client shell while retaining the existing appearance on the classic layout.\r\n* Media Bar continues to ship its frontend assets directly with the plugin, ensuring the version displayed in Jellyfin matches the plugin version you've installed.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Synced Media Bar with the latest Jellyfin 12-compatible upstream work.\r\n* Improved Media Bar placement within the Jellyfin 12 home screen across both supported layouts.\r\n* Improved layout behaviour on taller displays, ensuring Jellyfin's home-screen rows remain below the Media Bar content rather than overlapping its controls.\r\n* Improved localisation handling when loading Jellyfin's translation chunks.\r\n* Retained support for the **Get updates early** option for users who explicitly want to track unreleased upstream Media Bar changes.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed Media Bar being inserted in the wrong position when using Jellyfin 12's modern layout (#181).\r\n* Fixed translated Media Bar strings falling back to English or producing JSON decoding errors for some languages (#185).\r\n* Fixed home-screen rows overlapping Media Bar buttons on taller viewports.\r\n* Fixed Jellyfin 12 layout differences that could cause Media Bar to render incorrectly compared with Jellyfin 10.11.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Media Bar 3.0.0.0 supports Jellyfin 10.11.11 and Jellyfin 12.**\r\n* Users on older Jellyfin 10.x versions should remain on a compatible **2.x** Media Bar release.\r\n* Jellyfin 12 support includes both the **classic Desktop layout** and the newer **modern React/MUI layout**.\r\n* A compatible **File Transformation 3.x** release is required.\r\n* If you're using the **Get updates early** option, unreleased upstream Media Bar changes may behave differently from the frontend bundled and tested with this plugin release.\r\n\r\n## Contributors\r\n\r\n* austinnorgaard\r\n* judarange\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.0.0/Release-12.1.0.zip",
+        "checksum": "FD60F661B8D1448EB2311240D8044154",
+        "timestamp": "2026-09-15T20:41:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.10.zip",
+        "checksum": "ABBF6FDCABED3BF9E2C4EBE2645900BB",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.11.zip",
+        "checksum": "9FDC2DAE549087C7397865ACF88934ED",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.7.zip",
+        "checksum": "1E1E3B35E93576E8C8A96714B1146FD1",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.8.zip",
+        "checksum": "9635680C376F9DC156A909D9F9C723B3",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.13.0",
+        "changelog": "✨ New Features\r\n\r\n- Added an option to **enable or disable syncing the Jellyfin page backdrop with the current Media Bar slide** (#174).\r\n- Media Bar's JavaScript and CSS are now **served directly from the installed plugin by default**, rather than being fetched from jsDelivr. This ensures the frontend always matches the installed plugin version and allows Media Bar to work without internet access (PR #175, @skylerwshaw).\r\n- Added an optional **Get updates early** setting for users who want `main` or `latest` to continue tracking unreleased upstream changes through jsDelivr (PR #176, @skylerwshaw).\r\n- Merged with upstream.\r\n\r\n🛠️ Improvements\r\n\r\n- Explicit version tags and commits can still be used to load a specific Media Bar version from jsDelivr, while the recommended default now uses the assets bundled with the plugin.\r\n- Improved handling of embedded Media Bar assets, including correctly returning `404` for resources that don't exist.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed the slideshow timer lifecycle so changing slides doesn't inadvertently restart or leave behind an old timer (PR #178, @ACertainCoder).\r\n- Fixed requests to `index.html` unexpectedly rewriting the saved Media Bar version configuration.\r\n- Removed an unreachable legacy 10.11 asset fallback as part of the move to embedded frontend assets.\r\n\r\nContributors\r\n\r\n- skylerwshaw\r\n- ACertainCoder\r\n",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.13.0/Release-10.11.9.zip",
+        "checksum": "A98DEC91A70D4C58A237376F6D55C947",
+        "timestamp": "2026-08-26T21:08:23",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.12.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.12.0/Release-10.11.10.zip",
+        "checksum": "0C1BA8A291BBB8858F9519601BBCA68D",
+        "timestamp": "2026-06-11T10:01:56",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.12.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.12.0/Release-10.11.11.zip",
+        "checksum": "77685D9EEBF51BEB022927475542908A",
+        "timestamp": "2026-06-11T10:01:56",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.12.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.12.0/Release-10.11.7.zip",
+        "checksum": "3DAE2B464CBDABA5C9E3399BA0504DC0",
+        "timestamp": "2026-06-11T10:01:56",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.12.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.12.0/Release-10.11.8.zip",
+        "checksum": "D6064E65B53CCB1C3C962674AC4248A2",
+        "timestamp": "2026-06-11T10:01:56",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.12.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.12.0/Release-10.11.9.zip",
+        "checksum": "BFCD67976F89CF528F30D33C0C1A8243",
+        "timestamp": "2026-06-11T10:01:56",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.11.0/Release-10.10.7.zip",
+        "checksum": "6B75D0EA6CD2E545F355DC9B0865AC30",
+        "timestamp": "2026-05-25T20:05:58",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.11.0/Release-10.11.10.zip",
+        "checksum": "894A43A6202DC483A84B956CAF8616CE",
+        "timestamp": "2026-05-25T20:05:58",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.11.0/Release-10.11.7.zip",
+        "checksum": "99C8EE84A8CF10534A3F1E4E4FA2CF8E",
+        "timestamp": "2026-05-25T20:05:58",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.11.0/Release-10.11.8.zip",
+        "checksum": "997DB327388F348909E54C27B6FE95D9",
+        "timestamp": "2026-05-25T20:05:58",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.11.0/Release-10.11.9.zip",
+        "checksum": "B0980BE15DF1218D5898F65785D39539",
+        "timestamp": "2026-05-25T20:05:58",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.10.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
         "targetAbi": "10.10.7.0",
@@ -3056,6 +3749,215 @@
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-pages/main/src/logo.png",
     "versions": [
       {
+        "version": "3.0.1.0",
+        "changelog": "## 🪲 Bug Fixes\r\n\r\n* Fixed injected menu items not closing the Jellyfin user-menu popover after navigation (PR #20, @n00bcodr).\r\n* Fixed Plugin Pages injection sometimes failing on clients where jQuery had not finished loading, including affected Android clients (PR #20, @n00bcodr).\r\n* Added cache-busting to the injected script so clients reliably receive updated versions.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* Dropped support for Jellyfin 10.11 releases prior to 10.11.11. Jellyfin 10.11.11 remains supported.\r\n\r\n### Contributors\r\n\r\n* n00bcodr",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.1.0/Release-10.11.11.zip",
+        "checksum": "2412EA97ABBD19BDCDBE0D93BC0E3F34",
+        "timestamp": "2026-09-15T10:18:14",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "## 🪲 Bug Fixes\r\n\r\n* Fixed injected menu items not closing the Jellyfin user-menu popover after navigation (PR #20, @n00bcodr).\r\n* Fixed Plugin Pages injection sometimes failing on clients where jQuery had not finished loading, including affected Android clients (PR #20, @n00bcodr).\r\n* Added cache-busting to the injected script so clients reliably receive updated versions.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* Dropped support for Jellyfin 10.11 releases prior to 10.11.11. Jellyfin 10.11.11 remains supported.\r\n\r\n### Contributors\r\n\r\n* n00bcodr",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.1.0/Release-12.0.0.zip",
+        "checksum": "17025353F3B2EAE3149A89C1C4E1061A",
+        "timestamp": "2026-09-15T10:18:14",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "## 🪲 Bug Fixes\r\n\r\n* Fixed injected menu items not closing the Jellyfin user-menu popover after navigation (PR #20, @n00bcodr).\r\n* Fixed Plugin Pages injection sometimes failing on clients where jQuery had not finished loading, including affected Android clients (PR #20, @n00bcodr).\r\n* Added cache-busting to the injected script so clients reliably receive updated versions.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* Dropped support for Jellyfin 10.11 releases prior to 10.11.11. Jellyfin 10.11.11 remains supported.\r\n\r\n### Contributors\r\n\r\n* n00bcodr",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.1.0/Release-12.1.0.zip",
+        "checksum": "F74C03CED8C78112893E0D31EF4B649E",
+        "timestamp": "2026-09-15T10:18:14",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🧭 Plugin Pages, Ready for Jellyfin 12\r\n\r\nPlugin Pages **3.0.0.0** brings the plugin forward for **Jellyfin 12**, updating the way custom pages are injected into the Jellyfin web client and fixing the user-facing plugin settings flow for Jellyfin's latest architecture.\r\n\r\nThis release also drops support for **Jellyfin 10.10.7**, while introducing a new plugin-facing API that makes it much easier for other plugins to add and manage their own pages.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added a new public **Plugin Interface** allowing other plugins to register pages programmatically through `PluginInterface.RegisterPage(JObject)`.\r\n* Added `PluginInterface.RemovePage(string id)`, allowing plugins to unregister pages they previously registered.\r\n* Updated Plugin Pages' web-client injection to work with the changes introduced in Jellyfin 12.\r\n* Updated user-facing plugin settings pages to work with Jellyfin 12.\r\n* Updated the underlying Jellyfin dependencies and integration points required by the new server/web-client architecture.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Reworked page injection to account for changes to the Jellyfin 12 web client.\r\n* Improved compatibility for plugins that use Plugin Pages to expose user-facing pages inside Jellyfin.\r\n* Updated the user plugin settings integration so pages opened through Jellyfin's user menu continue to behave correctly on Jellyfin 12.\r\n* Dependent plugins can now manage their pages at runtime rather than directly modifying Plugin Pages' configuration.\r\n* Cleaned up legacy compatibility code that is no longer required now that older Jellyfin versions are being dropped.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed custom plugin pages failing to inject correctly into the **Jellyfin 12** web client.\r\n* Fixed user-facing plugin settings pages not working correctly on Jellyfin 12.\r\n* Fixed cases where pages registered through Plugin Pages could result in a **Page not found** experience after Jellyfin web-client changes.\r\n* Fixed compatibility issues caused by changes to Jellyfin's client-side routing and page-loading behaviour.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nPlugin Pages now provides a public plugin-facing API for registering and removing pages.\r\n\r\n* `PluginInterface.RegisterPage(JObject)` can be used to register a page directly with Plugin Pages.\r\n* The supplied `JObject` is deserialised into Plugin Pages' `PluginPage` model and registered immediately with the page manager.\r\n* `PluginInterface.RemovePage(string id)` can be used to unregister an existing page by its ID.\r\n* Plugins no longer need to directly modify `Jellyfin.Plugin.PluginPages/config.json` in order to dynamically add their own pages.\r\n* Plugins can now register pages during startup and remove them again during shutdown or when their configuration changes.\r\n\r\nThis should be considered the **preferred integration path for dependent plugins going forward**, replacing direct manipulation of Plugin Pages' configuration where possible.\r\n\r\nThe new API is additive, so existing configuration-based integrations are not inherently broken by the update. Plugin developers are, however, encouraged to migrate to the new interface for cleaner lifecycle management and better compatibility with future Plugin Pages releases.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Plugin Pages release until they upgrade Jellyfin.\r\n* Plugin Pages continues to require a compatible version of **File Transformation**.\r\n* Plugins that depend on Plugin Pages should also be updated to versions compatible with Jellyfin 12.\r\n* The new `PluginInterface` is additive; plugins using the previous configuration-based approach can continue to work, but the programmatic API is now the recommended integration method.\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.0.0/Release-10.11.10.zip",
+        "checksum": "4B31B7B1B40229D65D7E79D776D1C3A0",
+        "timestamp": "2026-09-08T09:28:39",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🧭 Plugin Pages, Ready for Jellyfin 12\r\n\r\nPlugin Pages **3.0.0.0** brings the plugin forward for **Jellyfin 12**, updating the way custom pages are injected into the Jellyfin web client and fixing the user-facing plugin settings flow for Jellyfin's latest architecture.\r\n\r\nThis release also drops support for **Jellyfin 10.10.7**, while introducing a new plugin-facing API that makes it much easier for other plugins to add and manage their own pages.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added a new public **Plugin Interface** allowing other plugins to register pages programmatically through `PluginInterface.RegisterPage(JObject)`.\r\n* Added `PluginInterface.RemovePage(string id)`, allowing plugins to unregister pages they previously registered.\r\n* Updated Plugin Pages' web-client injection to work with the changes introduced in Jellyfin 12.\r\n* Updated user-facing plugin settings pages to work with Jellyfin 12.\r\n* Updated the underlying Jellyfin dependencies and integration points required by the new server/web-client architecture.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Reworked page injection to account for changes to the Jellyfin 12 web client.\r\n* Improved compatibility for plugins that use Plugin Pages to expose user-facing pages inside Jellyfin.\r\n* Updated the user plugin settings integration so pages opened through Jellyfin's user menu continue to behave correctly on Jellyfin 12.\r\n* Dependent plugins can now manage their pages at runtime rather than directly modifying Plugin Pages' configuration.\r\n* Cleaned up legacy compatibility code that is no longer required now that older Jellyfin versions are being dropped.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed custom plugin pages failing to inject correctly into the **Jellyfin 12** web client.\r\n* Fixed user-facing plugin settings pages not working correctly on Jellyfin 12.\r\n* Fixed cases where pages registered through Plugin Pages could result in a **Page not found** experience after Jellyfin web-client changes.\r\n* Fixed compatibility issues caused by changes to Jellyfin's client-side routing and page-loading behaviour.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nPlugin Pages now provides a public plugin-facing API for registering and removing pages.\r\n\r\n* `PluginInterface.RegisterPage(JObject)` can be used to register a page directly with Plugin Pages.\r\n* The supplied `JObject` is deserialised into Plugin Pages' `PluginPage` model and registered immediately with the page manager.\r\n* `PluginInterface.RemovePage(string id)` can be used to unregister an existing page by its ID.\r\n* Plugins no longer need to directly modify `Jellyfin.Plugin.PluginPages/config.json` in order to dynamically add their own pages.\r\n* Plugins can now register pages during startup and remove them again during shutdown or when their configuration changes.\r\n\r\nThis should be considered the **preferred integration path for dependent plugins going forward**, replacing direct manipulation of Plugin Pages' configuration where possible.\r\n\r\nThe new API is additive, so existing configuration-based integrations are not inherently broken by the update. Plugin developers are, however, encouraged to migrate to the new interface for cleaner lifecycle management and better compatibility with future Plugin Pages releases.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Plugin Pages release until they upgrade Jellyfin.\r\n* Plugin Pages continues to require a compatible version of **File Transformation**.\r\n* Plugins that depend on Plugin Pages should also be updated to versions compatible with Jellyfin 12.\r\n* The new `PluginInterface` is additive; plugins using the previous configuration-based approach can continue to work, but the programmatic API is now the recommended integration method.\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.0.0/Release-10.11.11.zip",
+        "checksum": "01B3B6AF93AF6D0670DE1E7A09D01C7F",
+        "timestamp": "2026-09-08T09:28:39",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🧭 Plugin Pages, Ready for Jellyfin 12\r\n\r\nPlugin Pages **3.0.0.0** brings the plugin forward for **Jellyfin 12**, updating the way custom pages are injected into the Jellyfin web client and fixing the user-facing plugin settings flow for Jellyfin's latest architecture.\r\n\r\nThis release also drops support for **Jellyfin 10.10.7**, while introducing a new plugin-facing API that makes it much easier for other plugins to add and manage their own pages.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added a new public **Plugin Interface** allowing other plugins to register pages programmatically through `PluginInterface.RegisterPage(JObject)`.\r\n* Added `PluginInterface.RemovePage(string id)`, allowing plugins to unregister pages they previously registered.\r\n* Updated Plugin Pages' web-client injection to work with the changes introduced in Jellyfin 12.\r\n* Updated user-facing plugin settings pages to work with Jellyfin 12.\r\n* Updated the underlying Jellyfin dependencies and integration points required by the new server/web-client architecture.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Reworked page injection to account for changes to the Jellyfin 12 web client.\r\n* Improved compatibility for plugins that use Plugin Pages to expose user-facing pages inside Jellyfin.\r\n* Updated the user plugin settings integration so pages opened through Jellyfin's user menu continue to behave correctly on Jellyfin 12.\r\n* Dependent plugins can now manage their pages at runtime rather than directly modifying Plugin Pages' configuration.\r\n* Cleaned up legacy compatibility code that is no longer required now that older Jellyfin versions are being dropped.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed custom plugin pages failing to inject correctly into the **Jellyfin 12** web client.\r\n* Fixed user-facing plugin settings pages not working correctly on Jellyfin 12.\r\n* Fixed cases where pages registered through Plugin Pages could result in a **Page not found** experience after Jellyfin web-client changes.\r\n* Fixed compatibility issues caused by changes to Jellyfin's client-side routing and page-loading behaviour.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nPlugin Pages now provides a public plugin-facing API for registering and removing pages.\r\n\r\n* `PluginInterface.RegisterPage(JObject)` can be used to register a page directly with Plugin Pages.\r\n* The supplied `JObject` is deserialised into Plugin Pages' `PluginPage` model and registered immediately with the page manager.\r\n* `PluginInterface.RemovePage(string id)` can be used to unregister an existing page by its ID.\r\n* Plugins no longer need to directly modify `Jellyfin.Plugin.PluginPages/config.json` in order to dynamically add their own pages.\r\n* Plugins can now register pages during startup and remove them again during shutdown or when their configuration changes.\r\n\r\nThis should be considered the **preferred integration path for dependent plugins going forward**, replacing direct manipulation of Plugin Pages' configuration where possible.\r\n\r\nThe new API is additive, so existing configuration-based integrations are not inherently broken by the update. Plugin developers are, however, encouraged to migrate to the new interface for cleaner lifecycle management and better compatibility with future Plugin Pages releases.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Plugin Pages release until they upgrade Jellyfin.\r\n* Plugin Pages continues to require a compatible version of **File Transformation**.\r\n* Plugins that depend on Plugin Pages should also be updated to versions compatible with Jellyfin 12.\r\n* The new `PluginInterface` is additive; plugins using the previous configuration-based approach can continue to work, but the programmatic API is now the recommended integration method.\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.0.0/Release-10.11.7.zip",
+        "checksum": "CC6A3E20DE850A1796BB89479F05B997",
+        "timestamp": "2026-09-08T09:28:39",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🧭 Plugin Pages, Ready for Jellyfin 12\r\n\r\nPlugin Pages **3.0.0.0** brings the plugin forward for **Jellyfin 12**, updating the way custom pages are injected into the Jellyfin web client and fixing the user-facing plugin settings flow for Jellyfin's latest architecture.\r\n\r\nThis release also drops support for **Jellyfin 10.10.7**, while introducing a new plugin-facing API that makes it much easier for other plugins to add and manage their own pages.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added a new public **Plugin Interface** allowing other plugins to register pages programmatically through `PluginInterface.RegisterPage(JObject)`.\r\n* Added `PluginInterface.RemovePage(string id)`, allowing plugins to unregister pages they previously registered.\r\n* Updated Plugin Pages' web-client injection to work with the changes introduced in Jellyfin 12.\r\n* Updated user-facing plugin settings pages to work with Jellyfin 12.\r\n* Updated the underlying Jellyfin dependencies and integration points required by the new server/web-client architecture.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Reworked page injection to account for changes to the Jellyfin 12 web client.\r\n* Improved compatibility for plugins that use Plugin Pages to expose user-facing pages inside Jellyfin.\r\n* Updated the user plugin settings integration so pages opened through Jellyfin's user menu continue to behave correctly on Jellyfin 12.\r\n* Dependent plugins can now manage their pages at runtime rather than directly modifying Plugin Pages' configuration.\r\n* Cleaned up legacy compatibility code that is no longer required now that older Jellyfin versions are being dropped.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed custom plugin pages failing to inject correctly into the **Jellyfin 12** web client.\r\n* Fixed user-facing plugin settings pages not working correctly on Jellyfin 12.\r\n* Fixed cases where pages registered through Plugin Pages could result in a **Page not found** experience after Jellyfin web-client changes.\r\n* Fixed compatibility issues caused by changes to Jellyfin's client-side routing and page-loading behaviour.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nPlugin Pages now provides a public plugin-facing API for registering and removing pages.\r\n\r\n* `PluginInterface.RegisterPage(JObject)` can be used to register a page directly with Plugin Pages.\r\n* The supplied `JObject` is deserialised into Plugin Pages' `PluginPage` model and registered immediately with the page manager.\r\n* `PluginInterface.RemovePage(string id)` can be used to unregister an existing page by its ID.\r\n* Plugins no longer need to directly modify `Jellyfin.Plugin.PluginPages/config.json` in order to dynamically add their own pages.\r\n* Plugins can now register pages during startup and remove them again during shutdown or when their configuration changes.\r\n\r\nThis should be considered the **preferred integration path for dependent plugins going forward**, replacing direct manipulation of Plugin Pages' configuration where possible.\r\n\r\nThe new API is additive, so existing configuration-based integrations are not inherently broken by the update. Plugin developers are, however, encouraged to migrate to the new interface for cleaner lifecycle management and better compatibility with future Plugin Pages releases.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Plugin Pages release until they upgrade Jellyfin.\r\n* Plugin Pages continues to require a compatible version of **File Transformation**.\r\n* Plugins that depend on Plugin Pages should also be updated to versions compatible with Jellyfin 12.\r\n* The new `PluginInterface` is additive; plugins using the previous configuration-based approach can continue to work, but the programmatic API is now the recommended integration method.\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.0.0/Release-10.11.8.zip",
+        "checksum": "10F30538A11934D92740702D3BBA647C",
+        "timestamp": "2026-09-08T09:28:39",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🧭 Plugin Pages, Ready for Jellyfin 12\r\n\r\nPlugin Pages **3.0.0.0** brings the plugin forward for **Jellyfin 12**, updating the way custom pages are injected into the Jellyfin web client and fixing the user-facing plugin settings flow for Jellyfin's latest architecture.\r\n\r\nThis release also drops support for **Jellyfin 10.10.7**, while introducing a new plugin-facing API that makes it much easier for other plugins to add and manage their own pages.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added a new public **Plugin Interface** allowing other plugins to register pages programmatically through `PluginInterface.RegisterPage(JObject)`.\r\n* Added `PluginInterface.RemovePage(string id)`, allowing plugins to unregister pages they previously registered.\r\n* Updated Plugin Pages' web-client injection to work with the changes introduced in Jellyfin 12.\r\n* Updated user-facing plugin settings pages to work with Jellyfin 12.\r\n* Updated the underlying Jellyfin dependencies and integration points required by the new server/web-client architecture.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Reworked page injection to account for changes to the Jellyfin 12 web client.\r\n* Improved compatibility for plugins that use Plugin Pages to expose user-facing pages inside Jellyfin.\r\n* Updated the user plugin settings integration so pages opened through Jellyfin's user menu continue to behave correctly on Jellyfin 12.\r\n* Dependent plugins can now manage their pages at runtime rather than directly modifying Plugin Pages' configuration.\r\n* Cleaned up legacy compatibility code that is no longer required now that older Jellyfin versions are being dropped.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed custom plugin pages failing to inject correctly into the **Jellyfin 12** web client.\r\n* Fixed user-facing plugin settings pages not working correctly on Jellyfin 12.\r\n* Fixed cases where pages registered through Plugin Pages could result in a **Page not found** experience after Jellyfin web-client changes.\r\n* Fixed compatibility issues caused by changes to Jellyfin's client-side routing and page-loading behaviour.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nPlugin Pages now provides a public plugin-facing API for registering and removing pages.\r\n\r\n* `PluginInterface.RegisterPage(JObject)` can be used to register a page directly with Plugin Pages.\r\n* The supplied `JObject` is deserialised into Plugin Pages' `PluginPage` model and registered immediately with the page manager.\r\n* `PluginInterface.RemovePage(string id)` can be used to unregister an existing page by its ID.\r\n* Plugins no longer need to directly modify `Jellyfin.Plugin.PluginPages/config.json` in order to dynamically add their own pages.\r\n* Plugins can now register pages during startup and remove them again during shutdown or when their configuration changes.\r\n\r\nThis should be considered the **preferred integration path for dependent plugins going forward**, replacing direct manipulation of Plugin Pages' configuration where possible.\r\n\r\nThe new API is additive, so existing configuration-based integrations are not inherently broken by the update. Plugin developers are, however, encouraged to migrate to the new interface for cleaner lifecycle management and better compatibility with future Plugin Pages releases.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Plugin Pages release until they upgrade Jellyfin.\r\n* Plugin Pages continues to require a compatible version of **File Transformation**.\r\n* Plugins that depend on Plugin Pages should also be updated to versions compatible with Jellyfin 12.\r\n* The new `PluginInterface` is additive; plugins using the previous configuration-based approach can continue to work, but the programmatic API is now the recommended integration method.\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.0.0/Release-10.11.9.zip",
+        "checksum": "EF4A4B07011798F796EC410DE203CDDD",
+        "timestamp": "2026-09-08T09:28:39",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🧭 Plugin Pages, Ready for Jellyfin 12\r\n\r\nPlugin Pages **3.0.0.0** brings the plugin forward for **Jellyfin 12**, updating the way custom pages are injected into the Jellyfin web client and fixing the user-facing plugin settings flow for Jellyfin's latest architecture.\r\n\r\nThis release also drops support for **Jellyfin 10.10.7**, while introducing a new plugin-facing API that makes it much easier for other plugins to add and manage their own pages.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added a new public **Plugin Interface** allowing other plugins to register pages programmatically through `PluginInterface.RegisterPage(JObject)`.\r\n* Added `PluginInterface.RemovePage(string id)`, allowing plugins to unregister pages they previously registered.\r\n* Updated Plugin Pages' web-client injection to work with the changes introduced in Jellyfin 12.\r\n* Updated user-facing plugin settings pages to work with Jellyfin 12.\r\n* Updated the underlying Jellyfin dependencies and integration points required by the new server/web-client architecture.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Reworked page injection to account for changes to the Jellyfin 12 web client.\r\n* Improved compatibility for plugins that use Plugin Pages to expose user-facing pages inside Jellyfin.\r\n* Updated the user plugin settings integration so pages opened through Jellyfin's user menu continue to behave correctly on Jellyfin 12.\r\n* Dependent plugins can now manage their pages at runtime rather than directly modifying Plugin Pages' configuration.\r\n* Cleaned up legacy compatibility code that is no longer required now that older Jellyfin versions are being dropped.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed custom plugin pages failing to inject correctly into the **Jellyfin 12** web client.\r\n* Fixed user-facing plugin settings pages not working correctly on Jellyfin 12.\r\n* Fixed cases where pages registered through Plugin Pages could result in a **Page not found** experience after Jellyfin web-client changes.\r\n* Fixed compatibility issues caused by changes to Jellyfin's client-side routing and page-loading behaviour.\r\n\r\n## 💻 Developer Compatibility\r\n\r\nPlugin Pages now provides a public plugin-facing API for registering and removing pages.\r\n\r\n* `PluginInterface.RegisterPage(JObject)` can be used to register a page directly with Plugin Pages.\r\n* The supplied `JObject` is deserialised into Plugin Pages' `PluginPage` model and registered immediately with the page manager.\r\n* `PluginInterface.RemovePage(string id)` can be used to unregister an existing page by its ID.\r\n* Plugins no longer need to directly modify `Jellyfin.Plugin.PluginPages/config.json` in order to dynamically add their own pages.\r\n* Plugins can now register pages during startup and remove them again during shutdown or when their configuration changes.\r\n\r\nThis should be considered the **preferred integration path for dependent plugins going forward**, replacing direct manipulation of Plugin Pages' configuration where possible.\r\n\r\nThe new API is additive, so existing configuration-based integrations are not inherently broken by the update. Plugin developers are, however, encouraged to migrate to the new interface for cleaner lifecycle management and better compatibility with future Plugin Pages releases.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Plugin Pages release until they upgrade Jellyfin.\r\n* Plugin Pages continues to require a compatible version of **File Transformation**.\r\n* Plugins that depend on Plugin Pages should also be updated to versions compatible with Jellyfin 12.\r\n* The new `PluginInterface` is additive; plugins using the previous configuration-based approach can continue to work, but the programmatic API is now the recommended integration method.\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.0.0/Release-12.0.0.zip",
+        "checksum": "96E0B844A132E531EDA63528C1AB7196",
+        "timestamp": "2026-09-08T09:28:39",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.11.0/Release-10.11.10.zip",
+        "checksum": "0FA6452996993471360779E311749BA4",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.11.0/Release-10.11.11.zip",
+        "checksum": "09F4990C7C6665998D90A17401B53857",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.11.0/Release-10.11.7.zip",
+        "checksum": "B29F1DF18A11DD4889EF3C2B9AAC8047",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.11.0/Release-10.11.8.zip",
+        "checksum": "1E1B02CEF90D5F441F12BE7BD47DA35C",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.11.0/Release-10.11.9.zip",
+        "checksum": "4B967CADAA4A7A642300FA25429DB38F",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.10.0/Release-10.10.7.zip",
+        "checksum": "C5A32C943208CF09526B1E815C855AFD",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.10.0/Release-10.11.10.zip",
+        "checksum": "319D29D5567C66CD3DBDCB73BCD5AD55",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.10.0/Release-10.11.7.zip",
+        "checksum": "C8E436986412439C0CC3EB86542A3F9C",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.10.0/Release-10.11.8.zip",
+        "checksum": "AB5E5780D19DEB7CB5DF651D24A1454F",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.10.0/Release-10.11.9.zip",
+        "checksum": "5401E59FB1CAAF3FB0702A7FFF9C7016",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.9.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
         "targetAbi": "10.10.7.0",
@@ -3693,6 +4595,215 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-home-sections/main/src/logo.png",
     "versions": [
+      {
+        "version": "3.0.2.0",
+        "changelog": "Fixed issue caused by 3.0.1.0 on JF 12.1. \r\n\r\nThat release has been removed - this is identical to 3.0.1.0 except with this fix",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.2.0/Release-10.11.11.zip",
+        "checksum": "9C0414F8813D0CDFBD29F3F4CA218069",
+        "timestamp": "2026-09-15T11:27:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.2.0",
+        "changelog": "Fixed issue caused by 3.0.1.0 on JF 12.1. \r\n\r\nThat release has been removed - this is identical to 3.0.1.0 except with this fix",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.2.0/Release-12.0.0.zip",
+        "checksum": "CF4BE86E08365AC8D96CBA339F2523E1",
+        "timestamp": "2026-09-15T11:27:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.2.0",
+        "changelog": "Fixed issue caused by 3.0.1.0 on JF 12.1. \r\n\r\nThat release has been removed - this is identical to 3.0.1.0 except with this fix",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.2.0/Release-12.1.0.zip",
+        "checksum": "C71A9BBF5456A377F14D9653CA41DB99",
+        "timestamp": "2026-09-15T11:27:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🔥 The Biggest Home Screen Sections Update Yet\r\n\r\nThis is the biggest Home Screen Sections update to date, bringing a substantial set of new features, fixes, localisation improvements, and internal changes alongside support for Jellyfin 12.\r\n\r\nWith this release, Home Screen Sections is moving to **3.0.0.0**, marking a major step forward for the plugin and laying the groundwork for future Jellyfin versions.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**, including updated dependencies and compatibility changes required by the new Jellyfin version.\r\n* Added a new **Collections** section to display collections from the user's library.\r\n* Added a new **Recently Added In Library** section, allowing recently added media to be displayed for individual libraries, including custom libraries such as Anime (#231).\r\n* Added routing to supported sections, allowing section headers such as Genre to link through to their relevant Jellyfin pages.\r\n* Added per-section settings, allowing individual sections to have their own configurable behaviour.\r\n* Improved **Because You Watched** recommendations with a scoring system to better prioritise similar titles.\r\n* Added an option for **Recently Added Shows** to display either shows or individual episodes (#38).\r\n* Added an option to filter Upcoming sections based on the user's Jellyfin library access (#214, PR #249, @n00bcodr).\r\n* Added warnings when required plugin dependencies cannot be found (#234).\r\n* Added separate admin display names for sections, allowing their names to be translated without affecting the title displayed on the home screen.\r\n* Integrated with the new **Plugin Pages PluginInterface**, allowing Home Screen Sections to manage its Plugin Pages integration programmatically.\r\n\r\n## 🛠️ Improvements\r\n\r\n* The **Modular Home** menu entry is now registered dynamically through Plugin Pages rather than relying on static Plugin Pages configuration.\r\n* The Modular Home page can now be added and removed as part of Home Screen Sections' own lifecycle, reducing the chance of stale or missing Plugin Pages entries.\r\n* Improved the reliability of the **Modular Home** link and its integration with Jellyfin's user-facing plugin settings flow. Previous releases have seen cases where the link was missing or resulted in a `Page not found` page.\r\n* Home Screen Sections now respects libraries a user has chosen to hide from their home screen, filtering them from relevant sections (PR #237, @gemcdaniel).\r\n* Improved compatibility with newer Jellyfin versions by updating library handling and dependency integration.\r\n* Improved library filtering to account for changes to `VirtualFolderInfo` in Jellyfin 12.\r\n* Improved recommendation behaviour and section configuration through the new per-section settings system.\r\n* Improved support for mixed-content and custom libraries across more section types.\r\n* Improved Home Screen Sections' handling of temporary user caches, including validation, expiry and automatic cleanup.\r\n* Added additional localisation keys throughout the configuration interface to make more of the plugin translatable.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed #269 where cached lazy-load pages could be accessed using a hash created for another user. Added validation, automatic cache cleanup and expiry handling for temporary user caches.\r\n* Fixed #268 where the image cache directory wasn't recreated if it was removed while Jellyfin was running.\r\n* Fixed #258 by requiring authorization for the section registration endpoint.\r\n* Fixed #247 where `/HomeScreen/Sections` could crash when Modular Home was enabled without any globally configured sections.\r\n* Fixed #242 where the scroll listener could leak and gradually cause the browser to slow down during long sessions.\r\n* Fixed #240 where duplicated file transformations could cause sections to appear multiple times and make configured upper limits, such as Because You Watched's Upper Limit, appear to be ignored.\r\n* Fixed #241 where mixed-content libraries weren't supported by the majority of sections.\r\n* Fixed #149 where Watch Again, Because You Watched and Genre could fail to return TV series or episodes because queries filtered on parameters which weren't always populated.\r\n* Fixed #226 where the Genre section didn't respect the Hide Watched setting (PR #227, @jrhigueras).\r\n* Fixed **My Requests** returning unrelated library items when a user had no requested items (PR #246, @jamesmhoward1357).\r\n* Fixed library filtering on Jellyfin 12 where `VirtualFolderInfo.ItemId` is no longer populated.\r\n* Fixed SkiaSharp dependency compatibility with the newer Jellyfin/.NET stack.\r\n* Fixed the Genre section appearing as `{0} Movies` in the admin interface.\r\n\r\n## 🌐 Translations\r\n\r\n* Added **Norwegian Bokmål** translations (PR #239, @dyviknilsen).\r\n* Expanded and updated **Polish** translations (PR #235, @TheMatrixan).\r\n\r\nA large number of new settings, sections and localisation keys have been added in this release. As a result, **some supported languages may not yet have translations for every new string** and may temporarily fall back to English in parts of the plugin.\r\n\r\nTranslation contributions are very welcome!\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe public Home Screen Sections section-registration interface remains compatible with previous releases.\r\n\r\n* `PluginInterface.RegisterSection(JObject)` is unchanged.\r\n* Existing plugins registering custom Home Screen Sections do not need to adopt a new registration payload for this release.\r\n* Home Screen Sections itself now consumes the new **Plugin Pages PluginInterface** to register its user-facing Modular Home page dynamically.\r\n* Plugins integrating with both Home Screen Sections and Plugin Pages should prefer the new programmatic Plugin Pages API rather than directly modifying Plugin Pages configuration.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Home Screen Sections release until they upgrade Jellyfin.\r\n* Updated dependencies and internal APIs to align with newer Jellyfin versions.\r\n* Home Screen Sections requires compatible releases of **File Transformation** and **Plugin Pages**.\r\n* The public Home Screen Sections `PluginInterface.RegisterSection` contract remains compatible with previous releases.\r\n\r\n## Contributors\r\n\r\n* n00bcodr\r\n* jrhigueras\r\n* jamesmhoward1357\r\n* gemcdaniel\r\n* dyviknilsen\r\n* TheMatrixan\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.0.0/Release-10.11.10.zip",
+        "checksum": "540250CAB0EEBCDD3B95096E20206EC9",
+        "timestamp": "2026-09-08T09:16:20",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🔥 The Biggest Home Screen Sections Update Yet\r\n\r\nThis is the biggest Home Screen Sections update to date, bringing a substantial set of new features, fixes, localisation improvements, and internal changes alongside support for Jellyfin 12.\r\n\r\nWith this release, Home Screen Sections is moving to **3.0.0.0**, marking a major step forward for the plugin and laying the groundwork for future Jellyfin versions.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**, including updated dependencies and compatibility changes required by the new Jellyfin version.\r\n* Added a new **Collections** section to display collections from the user's library.\r\n* Added a new **Recently Added In Library** section, allowing recently added media to be displayed for individual libraries, including custom libraries such as Anime (#231).\r\n* Added routing to supported sections, allowing section headers such as Genre to link through to their relevant Jellyfin pages.\r\n* Added per-section settings, allowing individual sections to have their own configurable behaviour.\r\n* Improved **Because You Watched** recommendations with a scoring system to better prioritise similar titles.\r\n* Added an option for **Recently Added Shows** to display either shows or individual episodes (#38).\r\n* Added an option to filter Upcoming sections based on the user's Jellyfin library access (#214, PR #249, @n00bcodr).\r\n* Added warnings when required plugin dependencies cannot be found (#234).\r\n* Added separate admin display names for sections, allowing their names to be translated without affecting the title displayed on the home screen.\r\n* Integrated with the new **Plugin Pages PluginInterface**, allowing Home Screen Sections to manage its Plugin Pages integration programmatically.\r\n\r\n## 🛠️ Improvements\r\n\r\n* The **Modular Home** menu entry is now registered dynamically through Plugin Pages rather than relying on static Plugin Pages configuration.\r\n* The Modular Home page can now be added and removed as part of Home Screen Sections' own lifecycle, reducing the chance of stale or missing Plugin Pages entries.\r\n* Improved the reliability of the **Modular Home** link and its integration with Jellyfin's user-facing plugin settings flow. Previous releases have seen cases where the link was missing or resulted in a `Page not found` page.\r\n* Home Screen Sections now respects libraries a user has chosen to hide from their home screen, filtering them from relevant sections (PR #237, @gemcdaniel).\r\n* Improved compatibility with newer Jellyfin versions by updating library handling and dependency integration.\r\n* Improved library filtering to account for changes to `VirtualFolderInfo` in Jellyfin 12.\r\n* Improved recommendation behaviour and section configuration through the new per-section settings system.\r\n* Improved support for mixed-content and custom libraries across more section types.\r\n* Improved Home Screen Sections' handling of temporary user caches, including validation, expiry and automatic cleanup.\r\n* Added additional localisation keys throughout the configuration interface to make more of the plugin translatable.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed #269 where cached lazy-load pages could be accessed using a hash created for another user. Added validation, automatic cache cleanup and expiry handling for temporary user caches.\r\n* Fixed #268 where the image cache directory wasn't recreated if it was removed while Jellyfin was running.\r\n* Fixed #258 by requiring authorization for the section registration endpoint.\r\n* Fixed #247 where `/HomeScreen/Sections` could crash when Modular Home was enabled without any globally configured sections.\r\n* Fixed #242 where the scroll listener could leak and gradually cause the browser to slow down during long sessions.\r\n* Fixed #240 where duplicated file transformations could cause sections to appear multiple times and make configured upper limits, such as Because You Watched's Upper Limit, appear to be ignored.\r\n* Fixed #241 where mixed-content libraries weren't supported by the majority of sections.\r\n* Fixed #149 where Watch Again, Because You Watched and Genre could fail to return TV series or episodes because queries filtered on parameters which weren't always populated.\r\n* Fixed #226 where the Genre section didn't respect the Hide Watched setting (PR #227, @jrhigueras).\r\n* Fixed **My Requests** returning unrelated library items when a user had no requested items (PR #246, @jamesmhoward1357).\r\n* Fixed library filtering on Jellyfin 12 where `VirtualFolderInfo.ItemId` is no longer populated.\r\n* Fixed SkiaSharp dependency compatibility with the newer Jellyfin/.NET stack.\r\n* Fixed the Genre section appearing as `{0} Movies` in the admin interface.\r\n\r\n## 🌐 Translations\r\n\r\n* Added **Norwegian Bokmål** translations (PR #239, @dyviknilsen).\r\n* Expanded and updated **Polish** translations (PR #235, @TheMatrixan).\r\n\r\nA large number of new settings, sections and localisation keys have been added in this release. As a result, **some supported languages may not yet have translations for every new string** and may temporarily fall back to English in parts of the plugin.\r\n\r\nTranslation contributions are very welcome!\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe public Home Screen Sections section-registration interface remains compatible with previous releases.\r\n\r\n* `PluginInterface.RegisterSection(JObject)` is unchanged.\r\n* Existing plugins registering custom Home Screen Sections do not need to adopt a new registration payload for this release.\r\n* Home Screen Sections itself now consumes the new **Plugin Pages PluginInterface** to register its user-facing Modular Home page dynamically.\r\n* Plugins integrating with both Home Screen Sections and Plugin Pages should prefer the new programmatic Plugin Pages API rather than directly modifying Plugin Pages configuration.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Home Screen Sections release until they upgrade Jellyfin.\r\n* Updated dependencies and internal APIs to align with newer Jellyfin versions.\r\n* Home Screen Sections requires compatible releases of **File Transformation** and **Plugin Pages**.\r\n* The public Home Screen Sections `PluginInterface.RegisterSection` contract remains compatible with previous releases.\r\n\r\n## Contributors\r\n\r\n* n00bcodr\r\n* jrhigueras\r\n* jamesmhoward1357\r\n* gemcdaniel\r\n* dyviknilsen\r\n* TheMatrixan\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.0.0/Release-10.11.11.zip",
+        "checksum": "91D6E3A85B31B250EB518D91910FA011",
+        "timestamp": "2026-09-08T09:16:20",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🔥 The Biggest Home Screen Sections Update Yet\r\n\r\nThis is the biggest Home Screen Sections update to date, bringing a substantial set of new features, fixes, localisation improvements, and internal changes alongside support for Jellyfin 12.\r\n\r\nWith this release, Home Screen Sections is moving to **3.0.0.0**, marking a major step forward for the plugin and laying the groundwork for future Jellyfin versions.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**, including updated dependencies and compatibility changes required by the new Jellyfin version.\r\n* Added a new **Collections** section to display collections from the user's library.\r\n* Added a new **Recently Added In Library** section, allowing recently added media to be displayed for individual libraries, including custom libraries such as Anime (#231).\r\n* Added routing to supported sections, allowing section headers such as Genre to link through to their relevant Jellyfin pages.\r\n* Added per-section settings, allowing individual sections to have their own configurable behaviour.\r\n* Improved **Because You Watched** recommendations with a scoring system to better prioritise similar titles.\r\n* Added an option for **Recently Added Shows** to display either shows or individual episodes (#38).\r\n* Added an option to filter Upcoming sections based on the user's Jellyfin library access (#214, PR #249, @n00bcodr).\r\n* Added warnings when required plugin dependencies cannot be found (#234).\r\n* Added separate admin display names for sections, allowing their names to be translated without affecting the title displayed on the home screen.\r\n* Integrated with the new **Plugin Pages PluginInterface**, allowing Home Screen Sections to manage its Plugin Pages integration programmatically.\r\n\r\n## 🛠️ Improvements\r\n\r\n* The **Modular Home** menu entry is now registered dynamically through Plugin Pages rather than relying on static Plugin Pages configuration.\r\n* The Modular Home page can now be added and removed as part of Home Screen Sections' own lifecycle, reducing the chance of stale or missing Plugin Pages entries.\r\n* Improved the reliability of the **Modular Home** link and its integration with Jellyfin's user-facing plugin settings flow. Previous releases have seen cases where the link was missing or resulted in a `Page not found` page.\r\n* Home Screen Sections now respects libraries a user has chosen to hide from their home screen, filtering them from relevant sections (PR #237, @gemcdaniel).\r\n* Improved compatibility with newer Jellyfin versions by updating library handling and dependency integration.\r\n* Improved library filtering to account for changes to `VirtualFolderInfo` in Jellyfin 12.\r\n* Improved recommendation behaviour and section configuration through the new per-section settings system.\r\n* Improved support for mixed-content and custom libraries across more section types.\r\n* Improved Home Screen Sections' handling of temporary user caches, including validation, expiry and automatic cleanup.\r\n* Added additional localisation keys throughout the configuration interface to make more of the plugin translatable.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed #269 where cached lazy-load pages could be accessed using a hash created for another user. Added validation, automatic cache cleanup and expiry handling for temporary user caches.\r\n* Fixed #268 where the image cache directory wasn't recreated if it was removed while Jellyfin was running.\r\n* Fixed #258 by requiring authorization for the section registration endpoint.\r\n* Fixed #247 where `/HomeScreen/Sections` could crash when Modular Home was enabled without any globally configured sections.\r\n* Fixed #242 where the scroll listener could leak and gradually cause the browser to slow down during long sessions.\r\n* Fixed #240 where duplicated file transformations could cause sections to appear multiple times and make configured upper limits, such as Because You Watched's Upper Limit, appear to be ignored.\r\n* Fixed #241 where mixed-content libraries weren't supported by the majority of sections.\r\n* Fixed #149 where Watch Again, Because You Watched and Genre could fail to return TV series or episodes because queries filtered on parameters which weren't always populated.\r\n* Fixed #226 where the Genre section didn't respect the Hide Watched setting (PR #227, @jrhigueras).\r\n* Fixed **My Requests** returning unrelated library items when a user had no requested items (PR #246, @jamesmhoward1357).\r\n* Fixed library filtering on Jellyfin 12 where `VirtualFolderInfo.ItemId` is no longer populated.\r\n* Fixed SkiaSharp dependency compatibility with the newer Jellyfin/.NET stack.\r\n* Fixed the Genre section appearing as `{0} Movies` in the admin interface.\r\n\r\n## 🌐 Translations\r\n\r\n* Added **Norwegian Bokmål** translations (PR #239, @dyviknilsen).\r\n* Expanded and updated **Polish** translations (PR #235, @TheMatrixan).\r\n\r\nA large number of new settings, sections and localisation keys have been added in this release. As a result, **some supported languages may not yet have translations for every new string** and may temporarily fall back to English in parts of the plugin.\r\n\r\nTranslation contributions are very welcome!\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe public Home Screen Sections section-registration interface remains compatible with previous releases.\r\n\r\n* `PluginInterface.RegisterSection(JObject)` is unchanged.\r\n* Existing plugins registering custom Home Screen Sections do not need to adopt a new registration payload for this release.\r\n* Home Screen Sections itself now consumes the new **Plugin Pages PluginInterface** to register its user-facing Modular Home page dynamically.\r\n* Plugins integrating with both Home Screen Sections and Plugin Pages should prefer the new programmatic Plugin Pages API rather than directly modifying Plugin Pages configuration.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Home Screen Sections release until they upgrade Jellyfin.\r\n* Updated dependencies and internal APIs to align with newer Jellyfin versions.\r\n* Home Screen Sections requires compatible releases of **File Transformation** and **Plugin Pages**.\r\n* The public Home Screen Sections `PluginInterface.RegisterSection` contract remains compatible with previous releases.\r\n\r\n## Contributors\r\n\r\n* n00bcodr\r\n* jrhigueras\r\n* jamesmhoward1357\r\n* gemcdaniel\r\n* dyviknilsen\r\n* TheMatrixan\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.0.0/Release-10.11.7.zip",
+        "checksum": "0660B30C6425496B77FACD7CCBADAC61",
+        "timestamp": "2026-09-08T09:16:20",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🔥 The Biggest Home Screen Sections Update Yet\r\n\r\nThis is the biggest Home Screen Sections update to date, bringing a substantial set of new features, fixes, localisation improvements, and internal changes alongside support for Jellyfin 12.\r\n\r\nWith this release, Home Screen Sections is moving to **3.0.0.0**, marking a major step forward for the plugin and laying the groundwork for future Jellyfin versions.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**, including updated dependencies and compatibility changes required by the new Jellyfin version.\r\n* Added a new **Collections** section to display collections from the user's library.\r\n* Added a new **Recently Added In Library** section, allowing recently added media to be displayed for individual libraries, including custom libraries such as Anime (#231).\r\n* Added routing to supported sections, allowing section headers such as Genre to link through to their relevant Jellyfin pages.\r\n* Added per-section settings, allowing individual sections to have their own configurable behaviour.\r\n* Improved **Because You Watched** recommendations with a scoring system to better prioritise similar titles.\r\n* Added an option for **Recently Added Shows** to display either shows or individual episodes (#38).\r\n* Added an option to filter Upcoming sections based on the user's Jellyfin library access (#214, PR #249, @n00bcodr).\r\n* Added warnings when required plugin dependencies cannot be found (#234).\r\n* Added separate admin display names for sections, allowing their names to be translated without affecting the title displayed on the home screen.\r\n* Integrated with the new **Plugin Pages PluginInterface**, allowing Home Screen Sections to manage its Plugin Pages integration programmatically.\r\n\r\n## 🛠️ Improvements\r\n\r\n* The **Modular Home** menu entry is now registered dynamically through Plugin Pages rather than relying on static Plugin Pages configuration.\r\n* The Modular Home page can now be added and removed as part of Home Screen Sections' own lifecycle, reducing the chance of stale or missing Plugin Pages entries.\r\n* Improved the reliability of the **Modular Home** link and its integration with Jellyfin's user-facing plugin settings flow. Previous releases have seen cases where the link was missing or resulted in a `Page not found` page.\r\n* Home Screen Sections now respects libraries a user has chosen to hide from their home screen, filtering them from relevant sections (PR #237, @gemcdaniel).\r\n* Improved compatibility with newer Jellyfin versions by updating library handling and dependency integration.\r\n* Improved library filtering to account for changes to `VirtualFolderInfo` in Jellyfin 12.\r\n* Improved recommendation behaviour and section configuration through the new per-section settings system.\r\n* Improved support for mixed-content and custom libraries across more section types.\r\n* Improved Home Screen Sections' handling of temporary user caches, including validation, expiry and automatic cleanup.\r\n* Added additional localisation keys throughout the configuration interface to make more of the plugin translatable.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed #269 where cached lazy-load pages could be accessed using a hash created for another user. Added validation, automatic cache cleanup and expiry handling for temporary user caches.\r\n* Fixed #268 where the image cache directory wasn't recreated if it was removed while Jellyfin was running.\r\n* Fixed #258 by requiring authorization for the section registration endpoint.\r\n* Fixed #247 where `/HomeScreen/Sections` could crash when Modular Home was enabled without any globally configured sections.\r\n* Fixed #242 where the scroll listener could leak and gradually cause the browser to slow down during long sessions.\r\n* Fixed #240 where duplicated file transformations could cause sections to appear multiple times and make configured upper limits, such as Because You Watched's Upper Limit, appear to be ignored.\r\n* Fixed #241 where mixed-content libraries weren't supported by the majority of sections.\r\n* Fixed #149 where Watch Again, Because You Watched and Genre could fail to return TV series or episodes because queries filtered on parameters which weren't always populated.\r\n* Fixed #226 where the Genre section didn't respect the Hide Watched setting (PR #227, @jrhigueras).\r\n* Fixed **My Requests** returning unrelated library items when a user had no requested items (PR #246, @jamesmhoward1357).\r\n* Fixed library filtering on Jellyfin 12 where `VirtualFolderInfo.ItemId` is no longer populated.\r\n* Fixed SkiaSharp dependency compatibility with the newer Jellyfin/.NET stack.\r\n* Fixed the Genre section appearing as `{0} Movies` in the admin interface.\r\n\r\n## 🌐 Translations\r\n\r\n* Added **Norwegian Bokmål** translations (PR #239, @dyviknilsen).\r\n* Expanded and updated **Polish** translations (PR #235, @TheMatrixan).\r\n\r\nA large number of new settings, sections and localisation keys have been added in this release. As a result, **some supported languages may not yet have translations for every new string** and may temporarily fall back to English in parts of the plugin.\r\n\r\nTranslation contributions are very welcome!\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe public Home Screen Sections section-registration interface remains compatible with previous releases.\r\n\r\n* `PluginInterface.RegisterSection(JObject)` is unchanged.\r\n* Existing plugins registering custom Home Screen Sections do not need to adopt a new registration payload for this release.\r\n* Home Screen Sections itself now consumes the new **Plugin Pages PluginInterface** to register its user-facing Modular Home page dynamically.\r\n* Plugins integrating with both Home Screen Sections and Plugin Pages should prefer the new programmatic Plugin Pages API rather than directly modifying Plugin Pages configuration.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Home Screen Sections release until they upgrade Jellyfin.\r\n* Updated dependencies and internal APIs to align with newer Jellyfin versions.\r\n* Home Screen Sections requires compatible releases of **File Transformation** and **Plugin Pages**.\r\n* The public Home Screen Sections `PluginInterface.RegisterSection` contract remains compatible with previous releases.\r\n\r\n## Contributors\r\n\r\n* n00bcodr\r\n* jrhigueras\r\n* jamesmhoward1357\r\n* gemcdaniel\r\n* dyviknilsen\r\n* TheMatrixan\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.0.0/Release-10.11.8.zip",
+        "checksum": "218E384134C8F1EF67E76D898D9F0849",
+        "timestamp": "2026-09-08T09:16:20",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🔥 The Biggest Home Screen Sections Update Yet\r\n\r\nThis is the biggest Home Screen Sections update to date, bringing a substantial set of new features, fixes, localisation improvements, and internal changes alongside support for Jellyfin 12.\r\n\r\nWith this release, Home Screen Sections is moving to **3.0.0.0**, marking a major step forward for the plugin and laying the groundwork for future Jellyfin versions.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**, including updated dependencies and compatibility changes required by the new Jellyfin version.\r\n* Added a new **Collections** section to display collections from the user's library.\r\n* Added a new **Recently Added In Library** section, allowing recently added media to be displayed for individual libraries, including custom libraries such as Anime (#231).\r\n* Added routing to supported sections, allowing section headers such as Genre to link through to their relevant Jellyfin pages.\r\n* Added per-section settings, allowing individual sections to have their own configurable behaviour.\r\n* Improved **Because You Watched** recommendations with a scoring system to better prioritise similar titles.\r\n* Added an option for **Recently Added Shows** to display either shows or individual episodes (#38).\r\n* Added an option to filter Upcoming sections based on the user's Jellyfin library access (#214, PR #249, @n00bcodr).\r\n* Added warnings when required plugin dependencies cannot be found (#234).\r\n* Added separate admin display names for sections, allowing their names to be translated without affecting the title displayed on the home screen.\r\n* Integrated with the new **Plugin Pages PluginInterface**, allowing Home Screen Sections to manage its Plugin Pages integration programmatically.\r\n\r\n## 🛠️ Improvements\r\n\r\n* The **Modular Home** menu entry is now registered dynamically through Plugin Pages rather than relying on static Plugin Pages configuration.\r\n* The Modular Home page can now be added and removed as part of Home Screen Sections' own lifecycle, reducing the chance of stale or missing Plugin Pages entries.\r\n* Improved the reliability of the **Modular Home** link and its integration with Jellyfin's user-facing plugin settings flow. Previous releases have seen cases where the link was missing or resulted in a `Page not found` page.\r\n* Home Screen Sections now respects libraries a user has chosen to hide from their home screen, filtering them from relevant sections (PR #237, @gemcdaniel).\r\n* Improved compatibility with newer Jellyfin versions by updating library handling and dependency integration.\r\n* Improved library filtering to account for changes to `VirtualFolderInfo` in Jellyfin 12.\r\n* Improved recommendation behaviour and section configuration through the new per-section settings system.\r\n* Improved support for mixed-content and custom libraries across more section types.\r\n* Improved Home Screen Sections' handling of temporary user caches, including validation, expiry and automatic cleanup.\r\n* Added additional localisation keys throughout the configuration interface to make more of the plugin translatable.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed #269 where cached lazy-load pages could be accessed using a hash created for another user. Added validation, automatic cache cleanup and expiry handling for temporary user caches.\r\n* Fixed #268 where the image cache directory wasn't recreated if it was removed while Jellyfin was running.\r\n* Fixed #258 by requiring authorization for the section registration endpoint.\r\n* Fixed #247 where `/HomeScreen/Sections` could crash when Modular Home was enabled without any globally configured sections.\r\n* Fixed #242 where the scroll listener could leak and gradually cause the browser to slow down during long sessions.\r\n* Fixed #240 where duplicated file transformations could cause sections to appear multiple times and make configured upper limits, such as Because You Watched's Upper Limit, appear to be ignored.\r\n* Fixed #241 where mixed-content libraries weren't supported by the majority of sections.\r\n* Fixed #149 where Watch Again, Because You Watched and Genre could fail to return TV series or episodes because queries filtered on parameters which weren't always populated.\r\n* Fixed #226 where the Genre section didn't respect the Hide Watched setting (PR #227, @jrhigueras).\r\n* Fixed **My Requests** returning unrelated library items when a user had no requested items (PR #246, @jamesmhoward1357).\r\n* Fixed library filtering on Jellyfin 12 where `VirtualFolderInfo.ItemId` is no longer populated.\r\n* Fixed SkiaSharp dependency compatibility with the newer Jellyfin/.NET stack.\r\n* Fixed the Genre section appearing as `{0} Movies` in the admin interface.\r\n\r\n## 🌐 Translations\r\n\r\n* Added **Norwegian Bokmål** translations (PR #239, @dyviknilsen).\r\n* Expanded and updated **Polish** translations (PR #235, @TheMatrixan).\r\n\r\nA large number of new settings, sections and localisation keys have been added in this release. As a result, **some supported languages may not yet have translations for every new string** and may temporarily fall back to English in parts of the plugin.\r\n\r\nTranslation contributions are very welcome!\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe public Home Screen Sections section-registration interface remains compatible with previous releases.\r\n\r\n* `PluginInterface.RegisterSection(JObject)` is unchanged.\r\n* Existing plugins registering custom Home Screen Sections do not need to adopt a new registration payload for this release.\r\n* Home Screen Sections itself now consumes the new **Plugin Pages PluginInterface** to register its user-facing Modular Home page dynamically.\r\n* Plugins integrating with both Home Screen Sections and Plugin Pages should prefer the new programmatic Plugin Pages API rather than directly modifying Plugin Pages configuration.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Home Screen Sections release until they upgrade Jellyfin.\r\n* Updated dependencies and internal APIs to align with newer Jellyfin versions.\r\n* Home Screen Sections requires compatible releases of **File Transformation** and **Plugin Pages**.\r\n* The public Home Screen Sections `PluginInterface.RegisterSection` contract remains compatible with previous releases.\r\n\r\n## Contributors\r\n\r\n* n00bcodr\r\n* jrhigueras\r\n* jamesmhoward1357\r\n* gemcdaniel\r\n* dyviknilsen\r\n* TheMatrixan\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.0.0/Release-10.11.9.zip",
+        "checksum": "714499A1C1CF91FD52C46AC30A8244BC",
+        "timestamp": "2026-09-08T09:16:20",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🔥 The Biggest Home Screen Sections Update Yet\r\n\r\nThis is the biggest Home Screen Sections update to date, bringing a substantial set of new features, fixes, localisation improvements, and internal changes alongside support for Jellyfin 12.\r\n\r\nWith this release, Home Screen Sections is moving to **3.0.0.0**, marking a major step forward for the plugin and laying the groundwork for future Jellyfin versions.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**, including updated dependencies and compatibility changes required by the new Jellyfin version.\r\n* Added a new **Collections** section to display collections from the user's library.\r\n* Added a new **Recently Added In Library** section, allowing recently added media to be displayed for individual libraries, including custom libraries such as Anime (#231).\r\n* Added routing to supported sections, allowing section headers such as Genre to link through to their relevant Jellyfin pages.\r\n* Added per-section settings, allowing individual sections to have their own configurable behaviour.\r\n* Improved **Because You Watched** recommendations with a scoring system to better prioritise similar titles.\r\n* Added an option for **Recently Added Shows** to display either shows or individual episodes (#38).\r\n* Added an option to filter Upcoming sections based on the user's Jellyfin library access (#214, PR #249, @n00bcodr).\r\n* Added warnings when required plugin dependencies cannot be found (#234).\r\n* Added separate admin display names for sections, allowing their names to be translated without affecting the title displayed on the home screen.\r\n* Integrated with the new **Plugin Pages PluginInterface**, allowing Home Screen Sections to manage its Plugin Pages integration programmatically.\r\n\r\n## 🛠️ Improvements\r\n\r\n* The **Modular Home** menu entry is now registered dynamically through Plugin Pages rather than relying on static Plugin Pages configuration.\r\n* The Modular Home page can now be added and removed as part of Home Screen Sections' own lifecycle, reducing the chance of stale or missing Plugin Pages entries.\r\n* Improved the reliability of the **Modular Home** link and its integration with Jellyfin's user-facing plugin settings flow. Previous releases have seen cases where the link was missing or resulted in a `Page not found` page.\r\n* Home Screen Sections now respects libraries a user has chosen to hide from their home screen, filtering them from relevant sections (PR #237, @gemcdaniel).\r\n* Improved compatibility with newer Jellyfin versions by updating library handling and dependency integration.\r\n* Improved library filtering to account for changes to `VirtualFolderInfo` in Jellyfin 12.\r\n* Improved recommendation behaviour and section configuration through the new per-section settings system.\r\n* Improved support for mixed-content and custom libraries across more section types.\r\n* Improved Home Screen Sections' handling of temporary user caches, including validation, expiry and automatic cleanup.\r\n* Added additional localisation keys throughout the configuration interface to make more of the plugin translatable.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed #269 where cached lazy-load pages could be accessed using a hash created for another user. Added validation, automatic cache cleanup and expiry handling for temporary user caches.\r\n* Fixed #268 where the image cache directory wasn't recreated if it was removed while Jellyfin was running.\r\n* Fixed #258 by requiring authorization for the section registration endpoint.\r\n* Fixed #247 where `/HomeScreen/Sections` could crash when Modular Home was enabled without any globally configured sections.\r\n* Fixed #242 where the scroll listener could leak and gradually cause the browser to slow down during long sessions.\r\n* Fixed #240 where duplicated file transformations could cause sections to appear multiple times and make configured upper limits, such as Because You Watched's Upper Limit, appear to be ignored.\r\n* Fixed #241 where mixed-content libraries weren't supported by the majority of sections.\r\n* Fixed #149 where Watch Again, Because You Watched and Genre could fail to return TV series or episodes because queries filtered on parameters which weren't always populated.\r\n* Fixed #226 where the Genre section didn't respect the Hide Watched setting (PR #227, @jrhigueras).\r\n* Fixed **My Requests** returning unrelated library items when a user had no requested items (PR #246, @jamesmhoward1357).\r\n* Fixed library filtering on Jellyfin 12 where `VirtualFolderInfo.ItemId` is no longer populated.\r\n* Fixed SkiaSharp dependency compatibility with the newer Jellyfin/.NET stack.\r\n* Fixed the Genre section appearing as `{0} Movies` in the admin interface.\r\n\r\n## 🌐 Translations\r\n\r\n* Added **Norwegian Bokmål** translations (PR #239, @dyviknilsen).\r\n* Expanded and updated **Polish** translations (PR #235, @TheMatrixan).\r\n\r\nA large number of new settings, sections and localisation keys have been added in this release. As a result, **some supported languages may not yet have translations for every new string** and may temporarily fall back to English in parts of the plugin.\r\n\r\nTranslation contributions are very welcome!\r\n\r\n## 💻 Developer Compatibility\r\n\r\nThe public Home Screen Sections section-registration interface remains compatible with previous releases.\r\n\r\n* `PluginInterface.RegisterSection(JObject)` is unchanged.\r\n* Existing plugins registering custom Home Screen Sections do not need to adopt a new registration payload for this release.\r\n* Home Screen Sections itself now consumes the new **Plugin Pages PluginInterface** to register its user-facing Modular Home page dynamically.\r\n* Plugins integrating with both Home Screen Sections and Plugin Pages should prefer the new programmatic Plugin Pages API rather than directly modifying Plugin Pages configuration.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Jellyfin 10.10.7 is no longer supported.**\r\n* Added support for **Jellyfin 12**.\r\n* Users remaining on Jellyfin 10.10.7 will need to stay on an earlier Home Screen Sections release until they upgrade Jellyfin.\r\n* Updated dependencies and internal APIs to align with newer Jellyfin versions.\r\n* Home Screen Sections requires compatible releases of **File Transformation** and **Plugin Pages**.\r\n* The public Home Screen Sections `PluginInterface.RegisterSection` contract remains compatible with previous releases.\r\n\r\n## Contributors\r\n\r\n* n00bcodr\r\n* jrhigueras\r\n* jamesmhoward1357\r\n* gemcdaniel\r\n* dyviknilsen\r\n* TheMatrixan\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.\r\n\r\n<a href='https://ko-fi.com/iamparadox27' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.0.0/Release-12.0.0.zip",
+        "checksum": "1BDE28175CD31A047A7B2F882FCED007",
+        "timestamp": "2026-09-08T09:16:20",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.11.0/Release-10.10.7.zip",
+        "checksum": "C70BEC3FAA30CD74854A4589F8E1A17F",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.11.0/Release-10.11.10.zip",
+        "checksum": "97C8B2E5A7FE5CB6F259A3F808A55431",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.11.0/Release-10.11.11.zip",
+        "checksum": "3E14D000DFE6A159DF7519DD751EB86E",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.11.0/Release-10.11.7.zip",
+        "checksum": "E248B0F4B4E2EA159F5377F90CFDD1D6",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.11.0/Release-10.11.8.zip",
+        "checksum": "EA63AFE665D0C7F03F21D94870EABCDF",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.11.0/Release-10.11.9.zip",
+        "checksum": "6967A1D57092B03FAAF4FEB4C22BD286",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.10.0/Release-10.11.10.zip",
+        "checksum": "97A4154910E16BE7603F9D01745A6E26",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.10.0/Release-10.11.7.zip",
+        "checksum": "2814F4F59EA8F94D05D0CC307CD5AA15",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.10.0/Release-10.11.8.zip",
+        "checksum": "15EA96B0DE1AF863C74BDC0E5D4A1843",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.10.0/Release-10.11.9.zip",
+        "checksum": "877D5DF3E63D8EBB1AC394539113A69A",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.5.9.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
